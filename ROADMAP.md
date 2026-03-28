@@ -196,6 +196,8 @@
 - **[v37]** Détails architecturaux : tuyaux, bandes sol, rebords fenêtres, piliers garde-corps
 - **[v38]** Tunnel souterrain (5e route), arches de couloir, consoles murales, poutres
 - **[v39]** Balcons mezzanine, barricades bases, caps piliers, néons équipe, ventilation
+- **[v40-v44]** Side rooms, sniper perches, coffered ceiling, approach forts, walkway upper level, pipe network, base interior expansion, floor patterns, wall sconces, buttresses, back wall panels, pilasters, ceiling light panels, drainage channels, stanchions
+- **[v45-v49]** Wall niches, overhead catwalk, connector passages, outer wall windows, building interior furnishing, baseboards, crown molding, scattered crates, pipe elbows, team floor markers, ceiling fan housings, bollards
 
 ---
 

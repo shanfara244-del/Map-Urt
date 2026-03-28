@@ -85,14 +85,14 @@ Map-Urt/
 
 ---
 
-## État actuel de la map (v39)
+## État actuel de la map (v49)
 
-La map contient **187 entités** au total (~6596 lignes, BSP 1.7 MB) :
+La map contient **265 entités** au total (~10780 lignes, BSP 2.9 MB) :
 
 | Entité | Nombre | Notes |
 |--------|--------|-------|
-| `worldspawn` | 1 | ~200 brushes de géométrie |
-| `light` | 133 | Éclairage néon multi-couleur (cyan, violet, orange, vert, rouge) |
+| `worldspawn` | 1 | ~500+ brushes de géométrie |
+| `light` | 211 | Éclairage néon multi-couleur (cyan, violet, orange, vert, rouge) |
 | `info_ut_spawn` | 32 | 16 red + 16 blue, gametype 3,4,5,7 |
 | `info_player_deathmatch` | 6 | Spawns FFA de secours |
 | `target_location` | 12 | Noms de zones (bases, centre, flancs, ponts, tunnel) |
