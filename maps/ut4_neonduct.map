@@ -4510,6 +4510,491 @@
 ( 784 392 112 ) ( 768 392 112 ) ( 768 392 64 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
 }
 
+
+
+// ============================================================
+// v38 — UNDERGROUND VENTILATION TUNNEL (5th route)
+// Runs under the floor from west flank to east flank
+// z=-80 to z=-8 (below main floor at z=0)
+// ============================================================
+
+// Tunnel floor
+{
+( -768 64 -96 ) ( -768 -64 -96 ) ( 768 -64 -96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 64 -80 ) ( 768 -64 -80 ) ( -768 -64 -80 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -768 -64 -80 ) ( -768 -64 -96 ) ( -768 64 -96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 64 -80 ) ( 768 64 -96 ) ( 768 -64 -96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -64 -96 ) ( -768 -64 -96 ) ( -768 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 64 -80 ) ( -768 64 -80 ) ( -768 64 -96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Tunnel ceiling
+{
+( -768 64 -8 ) ( -768 -64 -8 ) ( 768 -64 -8 ) tech1soc_mat/mat01a 0 0 0 0.5 0.5 0 0 0
+( 768 64 0 ) ( 768 -64 0 ) ( -768 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -64 0 ) ( -768 -64 -8 ) ( -768 64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 64 0 ) ( 768 64 -8 ) ( 768 -64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -64 -8 ) ( -768 -64 -8 ) ( -768 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 64 0 ) ( -768 64 0 ) ( -768 64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Tunnel south wall
+{
+( -768 -64 -80 ) ( -768 -80 -80 ) ( 768 -80 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -64 -8 ) ( 768 -80 -8 ) ( -768 -80 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -80 -8 ) ( -768 -80 -80 ) ( -768 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 -64 -8 ) ( 768 -64 -80 ) ( 768 -80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 -80 -80 ) ( -768 -80 -80 ) ( -768 -80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 -64 -8 ) ( -768 -64 -8 ) ( -768 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Tunnel north wall
+{
+( -768 80 -80 ) ( -768 64 -80 ) ( 768 64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 80 -8 ) ( 768 64 -8 ) ( -768 64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 64 -8 ) ( -768 64 -80 ) ( -768 80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 80 -8 ) ( 768 80 -80 ) ( 768 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 64 -80 ) ( -768 64 -80 ) ( -768 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 80 -8 ) ( -768 80 -8 ) ( -768 80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Tunnel west end wall
+{
+( -784 80 -80 ) ( -784 -80 -80 ) ( -768 -80 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 80 -8 ) ( -768 -80 -8 ) ( -784 -80 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -784 -80 -8 ) ( -784 -80 -80 ) ( -784 80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -768 80 -8 ) ( -768 80 -80 ) ( -768 -80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -768 -80 -80 ) ( -784 -80 -80 ) ( -784 -80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -768 80 -8 ) ( -784 80 -8 ) ( -784 80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Tunnel east end wall
+{
+( 768 80 -80 ) ( 768 -80 -80 ) ( 784 -80 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 784 80 -8 ) ( 784 -80 -8 ) ( 768 -80 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -80 -8 ) ( 768 -80 -80 ) ( 768 80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 80 -8 ) ( 784 80 -80 ) ( 784 -80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 -80 -80 ) ( 768 -80 -80 ) ( 768 -80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 80 -8 ) ( 768 80 -8 ) ( 768 80 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- WEST TUNNEL ACCESS SHAFT ---
+// Shaft south wall
+{
+( -784 -64 -8 ) ( -784 -80 -8 ) ( -640 -80 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -640 -64 8 ) ( -640 -80 8 ) ( -784 -80 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -784 -80 8 ) ( -784 -80 -8 ) ( -784 -64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -640 -64 8 ) ( -640 -64 -8 ) ( -640 -80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -640 -80 -8 ) ( -784 -80 -8 ) ( -784 -80 8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -640 -64 8 ) ( -784 -64 8 ) ( -784 -64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Shaft north wall
+{
+( -784 80 -8 ) ( -784 64 -8 ) ( -640 64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -640 80 8 ) ( -640 64 8 ) ( -784 64 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -784 64 8 ) ( -784 64 -8 ) ( -784 80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -640 80 8 ) ( -640 80 -8 ) ( -640 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -640 64 -8 ) ( -784 64 -8 ) ( -784 64 8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -640 80 8 ) ( -784 80 8 ) ( -784 80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Shaft west wall
+{
+( -784 64 -8 ) ( -784 -64 -8 ) ( -768 -64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 64 8 ) ( -768 -64 8 ) ( -784 -64 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -784 -64 8 ) ( -784 -64 -8 ) ( -784 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -768 64 8 ) ( -768 64 -8 ) ( -768 -64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -768 -64 -8 ) ( -784 -64 -8 ) ( -784 -64 8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -768 64 8 ) ( -784 64 8 ) ( -784 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// West shaft step 1
+{
+( -768 64 -80 ) ( -768 -64 -80 ) ( -744 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -744 64 -64 ) ( -744 -64 -64 ) ( -768 -64 -64 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -768 -64 -64 ) ( -768 -64 -80 ) ( -768 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -744 64 -64 ) ( -744 64 -80 ) ( -744 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -744 -64 -80 ) ( -768 -64 -80 ) ( -768 -64 -64 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -744 64 -64 ) ( -768 64 -64 ) ( -768 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// West shaft step 2
+{
+( -744 64 -80 ) ( -744 -64 -80 ) ( -720 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -720 64 -48 ) ( -720 -64 -48 ) ( -744 -64 -48 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -744 -64 -48 ) ( -744 -64 -80 ) ( -744 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -720 64 -48 ) ( -720 64 -80 ) ( -720 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -720 -64 -80 ) ( -744 -64 -80 ) ( -744 -64 -48 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -720 64 -48 ) ( -744 64 -48 ) ( -744 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// West shaft step 3
+{
+( -720 64 -80 ) ( -720 -64 -80 ) ( -696 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -696 64 -32 ) ( -696 -64 -32 ) ( -720 -64 -32 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -720 -64 -32 ) ( -720 -64 -80 ) ( -720 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -696 64 -32 ) ( -696 64 -80 ) ( -696 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -696 -64 -80 ) ( -720 -64 -80 ) ( -720 -64 -32 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -696 64 -32 ) ( -720 64 -32 ) ( -720 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// West shaft step 4
+{
+( -696 64 -80 ) ( -696 -64 -80 ) ( -672 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -672 64 -16 ) ( -672 -64 -16 ) ( -696 -64 -16 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -696 -64 -16 ) ( -696 -64 -80 ) ( -696 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -672 64 -16 ) ( -672 64 -80 ) ( -672 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -672 -64 -80 ) ( -696 -64 -80 ) ( -696 -64 -16 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -672 64 -16 ) ( -696 64 -16 ) ( -696 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// West shaft step 5
+{
+( -672 64 -80 ) ( -672 -64 -80 ) ( -648 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -648 64 0 ) ( -648 -64 0 ) ( -672 -64 0 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -672 -64 0 ) ( -672 -64 -80 ) ( -672 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -648 64 0 ) ( -648 64 -80 ) ( -648 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -648 -64 -80 ) ( -672 -64 -80 ) ( -672 -64 0 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -648 64 0 ) ( -672 64 0 ) ( -672 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- EAST TUNNEL ACCESS SHAFT ---
+// Shaft south wall
+{
+( 640 -64 -8 ) ( 640 -80 -8 ) ( 784 -80 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 784 -64 8 ) ( 784 -80 8 ) ( 640 -80 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 640 -80 8 ) ( 640 -80 -8 ) ( 640 -64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 -64 8 ) ( 784 -64 -8 ) ( 784 -80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 -80 -8 ) ( 640 -80 -8 ) ( 640 -80 8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 -64 8 ) ( 640 -64 8 ) ( 640 -64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Shaft north wall
+{
+( 640 80 -8 ) ( 640 64 -8 ) ( 784 64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 784 80 8 ) ( 784 64 8 ) ( 640 64 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 640 64 8 ) ( 640 64 -8 ) ( 640 80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 80 8 ) ( 784 80 -8 ) ( 784 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 64 -8 ) ( 640 64 -8 ) ( 640 64 8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 80 8 ) ( 640 80 8 ) ( 640 80 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Shaft east wall
+{
+( 768 64 -8 ) ( 768 -64 -8 ) ( 784 -64 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 784 64 8 ) ( 784 -64 8 ) ( 768 -64 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -64 8 ) ( 768 -64 -8 ) ( 768 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 64 8 ) ( 784 64 -8 ) ( 784 -64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 -64 -8 ) ( 768 -64 -8 ) ( 768 -64 8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 784 64 8 ) ( 768 64 8 ) ( 768 64 -8 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// East shaft step 1
+{
+( 744 64 -80 ) ( 744 -64 -80 ) ( 768 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 64 -64 ) ( 768 -64 -64 ) ( 744 -64 -64 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 744 -64 -64 ) ( 744 -64 -80 ) ( 744 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 64 -64 ) ( 768 64 -80 ) ( 768 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 -64 -80 ) ( 744 -64 -80 ) ( 744 -64 -64 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 768 64 -64 ) ( 744 64 -64 ) ( 744 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// East shaft step 2
+{
+( 720 64 -80 ) ( 720 -64 -80 ) ( 744 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 744 64 -48 ) ( 744 -64 -48 ) ( 720 -64 -48 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 720 -64 -48 ) ( 720 -64 -80 ) ( 720 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 744 64 -48 ) ( 744 64 -80 ) ( 744 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 744 -64 -80 ) ( 720 -64 -80 ) ( 720 -64 -48 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 744 64 -48 ) ( 720 64 -48 ) ( 720 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// East shaft step 3
+{
+( 696 64 -80 ) ( 696 -64 -80 ) ( 720 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 720 64 -32 ) ( 720 -64 -32 ) ( 696 -64 -32 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 696 -64 -32 ) ( 696 -64 -80 ) ( 696 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 720 64 -32 ) ( 720 64 -80 ) ( 720 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 720 -64 -80 ) ( 696 -64 -80 ) ( 696 -64 -32 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 720 64 -32 ) ( 696 64 -32 ) ( 696 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// East shaft step 4
+{
+( 672 64 -80 ) ( 672 -64 -80 ) ( 696 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 696 64 -16 ) ( 696 -64 -16 ) ( 672 -64 -16 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 672 -64 -16 ) ( 672 -64 -80 ) ( 672 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 696 64 -16 ) ( 696 64 -80 ) ( 696 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 696 -64 -80 ) ( 672 -64 -80 ) ( 672 -64 -16 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 696 64 -16 ) ( 672 64 -16 ) ( 672 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// East shaft step 5
+{
+( 648 64 -80 ) ( 648 -64 -80 ) ( 672 -64 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 672 64 0 ) ( 672 -64 0 ) ( 648 -64 0 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 648 -64 0 ) ( 648 -64 -80 ) ( 648 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 672 64 0 ) ( 672 64 -80 ) ( 672 -64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 672 -64 -80 ) ( 648 -64 -80 ) ( 648 -64 0 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 672 64 0 ) ( 648 64 0 ) ( 648 64 -80 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- TUNNEL CENTER PILLAR ---
+{
+( -32 32 -80 ) ( -32 -32 -80 ) ( 32 -32 -80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 32 32 -8 ) ( 32 -32 -8 ) ( -32 -32 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -32 -32 -8 ) ( -32 -32 -80 ) ( -32 32 -80 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 32 32 -8 ) ( 32 32 -80 ) ( 32 -32 -80 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 32 -32 -80 ) ( -32 -32 -80 ) ( -32 -32 -8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 32 32 -8 ) ( -32 32 -8 ) ( -32 32 -80 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- TUNNEL NEON STRIPS ---
+// West tunnel neon
+{
+( -600 8 -16 ) ( -600 -8 -16 ) ( -200 -8 -16 ) urban_light/blue_light_500 0 0 0 0.5 0.5 0 0 0
+( -200 8 -8 ) ( -200 -8 -8 ) ( -600 -8 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -600 -8 -8 ) ( -600 -8 -16 ) ( -600 8 -16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -200 8 -8 ) ( -200 8 -16 ) ( -200 -8 -16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -200 -8 -16 ) ( -600 -8 -16 ) ( -600 -8 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -200 8 -8 ) ( -600 8 -8 ) ( -600 8 -16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// East tunnel neon
+{
+( 200 8 -16 ) ( 200 -8 -16 ) ( 600 -8 -16 ) urban_light/blue_light_500 0 0 0 0.5 0.5 0 0 0
+( 600 8 -8 ) ( 600 -8 -8 ) ( 200 -8 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 200 -8 -8 ) ( 200 -8 -16 ) ( 200 8 -16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 600 8 -8 ) ( 600 8 -16 ) ( 600 -8 -16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 600 -8 -16 ) ( 200 -8 -16 ) ( 200 -8 -8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 600 8 -8 ) ( 200 8 -8 ) ( 200 8 -16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// ============================================================
+// v38 — CORRIDOR ARCHWAYS
+// Architectural frames at corridor-to-approach transitions
+// ============================================================
+
+// South archway left pillar
+{
+( -512 -512 0 ) ( -512 -528 0 ) ( -480 -528 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -480 -512 192 ) ( -480 -528 192 ) ( -512 -528 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -528 192 ) ( -512 -528 0 ) ( -512 -512 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -480 -512 192 ) ( -480 -512 0 ) ( -480 -528 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -480 -528 0 ) ( -512 -528 0 ) ( -512 -528 192 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -480 -512 192 ) ( -512 -512 192 ) ( -512 -512 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+}
+// South archway right pillar
+{
+( 480 -512 0 ) ( 480 -528 0 ) ( 512 -528 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 -512 192 ) ( 512 -528 192 ) ( 480 -528 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 -528 192 ) ( 480 -528 0 ) ( 480 -512 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 512 -512 192 ) ( 512 -512 0 ) ( 512 -528 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 512 -528 0 ) ( 480 -528 0 ) ( 480 -528 192 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 512 -512 192 ) ( 480 -512 192 ) ( 480 -512 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+}
+// South archway lintel
+{
+( -480 -512 176 ) ( -480 -528 176 ) ( 480 -528 176 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 -512 192 ) ( 480 -528 192 ) ( -480 -528 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -480 -528 192 ) ( -480 -528 176 ) ( -480 -512 176 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 480 -512 192 ) ( 480 -512 176 ) ( 480 -528 176 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 480 -528 176 ) ( -480 -528 176 ) ( -480 -528 192 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 480 -512 192 ) ( -480 -512 192 ) ( -480 -512 176 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+}
+// North archway left pillar
+{
+( -512 528 0 ) ( -512 512 0 ) ( -480 512 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -480 528 192 ) ( -480 512 192 ) ( -512 512 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 512 192 ) ( -512 512 0 ) ( -512 528 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -480 528 192 ) ( -480 528 0 ) ( -480 512 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -480 512 0 ) ( -512 512 0 ) ( -512 512 192 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -480 528 192 ) ( -512 528 192 ) ( -512 528 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+}
+// North archway right pillar
+{
+( 480 528 0 ) ( 480 512 0 ) ( 512 512 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 528 192 ) ( 512 512 192 ) ( 480 512 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 512 192 ) ( 480 512 0 ) ( 480 528 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 512 528 192 ) ( 512 528 0 ) ( 512 512 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 512 512 0 ) ( 480 512 0 ) ( 480 512 192 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 512 528 192 ) ( 480 528 192 ) ( 480 528 0 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+}
+// North archway lintel
+{
+( -480 528 176 ) ( -480 512 176 ) ( 480 512 176 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 528 192 ) ( 480 512 192 ) ( -480 512 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -480 512 192 ) ( -480 512 176 ) ( -480 528 176 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 480 528 192 ) ( 480 528 176 ) ( 480 512 176 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 480 512 176 ) ( -480 512 176 ) ( -480 512 192 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 480 528 192 ) ( -480 528 192 ) ( -480 528 176 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+}
+
+// ============================================================
+// v38 — APPROACH ZONE DIVIDERS
+// Low walls that create tactical sub-zones in approach areas
+// ============================================================
+
+// Red approach divider west
+{
+( -448 -896 0 ) ( -448 -912 0 ) ( -384 -912 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -384 -896 64 ) ( -384 -912 64 ) ( -448 -912 64 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -448 -912 64 ) ( -448 -912 0 ) ( -448 -896 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -384 -896 64 ) ( -384 -896 0 ) ( -384 -912 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -384 -912 0 ) ( -448 -912 0 ) ( -448 -912 64 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -384 -896 64 ) ( -448 -896 64 ) ( -448 -896 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+// Red approach divider east
+{
+( 384 -896 0 ) ( 384 -912 0 ) ( 448 -912 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 448 -896 64 ) ( 448 -912 64 ) ( 384 -912 64 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 384 -912 64 ) ( 384 -912 0 ) ( 384 -896 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 448 -896 64 ) ( 448 -896 0 ) ( 448 -912 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 448 -912 0 ) ( 384 -912 0 ) ( 384 -912 64 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 448 -896 64 ) ( 384 -896 64 ) ( 384 -896 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+// Blue approach divider west
+{
+( -448 912 0 ) ( -448 896 0 ) ( -384 896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -384 912 64 ) ( -384 896 64 ) ( -448 896 64 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( -448 896 64 ) ( -448 896 0 ) ( -448 912 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -384 912 64 ) ( -384 912 0 ) ( -384 896 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -384 896 0 ) ( -448 896 0 ) ( -448 896 64 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -384 912 64 ) ( -448 912 64 ) ( -448 912 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+// Blue approach divider east
+{
+( 384 912 0 ) ( 384 896 0 ) ( 448 896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 448 912 64 ) ( 448 896 64 ) ( 384 896 64 ) tech1soc_trim/032-01a 0 0 0 0.5 0.5 0 0 0
+( 384 896 64 ) ( 384 896 0 ) ( 384 912 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 448 912 64 ) ( 448 912 0 ) ( 448 896 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 448 896 0 ) ( 384 896 0 ) ( 384 896 64 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 448 912 64 ) ( 384 912 64 ) ( 384 912 0 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+
+// ============================================================
+// v38 — EXTERIOR WALL NEON ACCENTS
+// Neon strips on outer walls for atmosphere
+// ============================================================
+
+// West wall neon strip south
+{
+( -1024 -512 160 ) ( -1024 -1280 160 ) ( -1020 -1280 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 -512 168 ) ( -1020 -1280 168 ) ( -1024 -1280 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1024 -1280 168 ) ( -1024 -1280 160 ) ( -1024 -512 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 -512 168 ) ( -1020 -512 160 ) ( -1020 -1280 160 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( -1020 -1280 160 ) ( -1024 -1280 160 ) ( -1024 -1280 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 -512 168 ) ( -1024 -512 168 ) ( -1024 -512 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// West wall neon strip north
+{
+( -1024 1280 160 ) ( -1024 512 160 ) ( -1020 512 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 1280 168 ) ( -1020 512 168 ) ( -1024 512 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1024 512 168 ) ( -1024 512 160 ) ( -1024 1280 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 1280 168 ) ( -1020 1280 160 ) ( -1020 512 160 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( -1020 512 160 ) ( -1024 512 160 ) ( -1024 512 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 1280 168 ) ( -1024 1280 168 ) ( -1024 1280 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// East wall neon strip south
+{
+( 1020 -512 160 ) ( 1020 -1280 160 ) ( 1024 -1280 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -512 168 ) ( 1024 -1280 168 ) ( 1020 -1280 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 -1280 168 ) ( 1020 -1280 160 ) ( 1020 -512 160 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( 1024 -512 168 ) ( 1024 -512 160 ) ( 1024 -1280 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -1280 160 ) ( 1020 -1280 160 ) ( 1020 -1280 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -512 168 ) ( 1020 -512 168 ) ( 1020 -512 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// East wall neon strip north
+{
+( 1020 1280 160 ) ( 1020 512 160 ) ( 1024 512 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 1280 168 ) ( 1024 512 168 ) ( 1020 512 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 512 168 ) ( 1020 512 160 ) ( 1020 1280 160 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( 1024 1280 168 ) ( 1024 1280 160 ) ( 1024 512 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 512 160 ) ( 1020 512 160 ) ( 1020 512 168 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 1280 168 ) ( 1020 1280 168 ) ( 1020 1280 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// ============================================================
+// v38 — BASE CONSOLE PANELS (back wall detail)
+// ============================================================
+
+// Red base console left
+{
+( -384 -2032 96 ) ( -384 -2048 96 ) ( -256 -2048 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -256 -2032 176 ) ( -256 -2048 176 ) ( -384 -2048 176 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -384 -2048 176 ) ( -384 -2048 96 ) ( -384 -2032 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -256 -2032 176 ) ( -256 -2032 96 ) ( -256 -2048 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -256 -2048 96 ) ( -384 -2048 96 ) ( -384 -2048 176 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( -256 -2032 176 ) ( -384 -2032 176 ) ( -384 -2032 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Red base console right
+{
+( 256 -2032 96 ) ( 256 -2048 96 ) ( 384 -2048 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 384 -2032 176 ) ( 384 -2048 176 ) ( 256 -2048 176 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 256 -2048 176 ) ( 256 -2048 96 ) ( 256 -2032 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 384 -2032 176 ) ( 384 -2032 96 ) ( 384 -2048 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 384 -2048 96 ) ( 256 -2048 96 ) ( 256 -2048 176 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( 384 -2032 176 ) ( 256 -2032 176 ) ( 256 -2032 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+}
+// Blue base console left
+{
+( -384 2048 96 ) ( -384 2032 96 ) ( -256 2032 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -256 2048 176 ) ( -256 2032 176 ) ( -384 2032 176 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -384 2032 176 ) ( -384 2032 96 ) ( -384 2048 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -256 2048 176 ) ( -256 2048 96 ) ( -256 2032 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -256 2032 96 ) ( -384 2032 96 ) ( -384 2032 176 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -256 2048 176 ) ( -384 2048 176 ) ( -384 2048 96 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+}
+// Blue base console right
+{
+( 256 2048 96 ) ( 256 2032 96 ) ( 384 2032 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 384 2048 176 ) ( 384 2032 176 ) ( 256 2032 176 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 256 2032 176 ) ( 256 2032 96 ) ( 256 2048 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 384 2048 176 ) ( 384 2048 96 ) ( 384 2032 96 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 384 2032 96 ) ( 256 2032 96 ) ( 256 2032 176 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( 384 2048 176 ) ( 256 2048 176 ) ( 256 2048 96 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+}
+
+// ============================================================
+// v38 — WALKWAY CROSSBEAMS (overhead detail)
+// ============================================================
+
+// West crossbeam y=-320
+{
+( -1024 -312 200 ) ( -1024 -328 200 ) ( -768 -328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -312 212 ) ( -768 -328 212 ) ( -1024 -328 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1024 -328 212 ) ( -1024 -328 200 ) ( -1024 -312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -312 212 ) ( -768 -312 200 ) ( -768 -328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -328 200 ) ( -1024 -328 200 ) ( -1024 -328 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -312 212 ) ( -1024 -312 212 ) ( -1024 -312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// East crossbeam y=-320
+{
+( 768 -312 200 ) ( 768 -328 200 ) ( 1024 -328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -312 212 ) ( 1024 -328 212 ) ( 768 -328 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -328 212 ) ( 768 -328 200 ) ( 768 -312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -312 212 ) ( 1024 -312 200 ) ( 1024 -328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -328 200 ) ( 768 -328 200 ) ( 768 -328 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -312 212 ) ( 768 -312 212 ) ( 768 -312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// West crossbeam y=0
+{
+( -1024 8 200 ) ( -1024 -8 200 ) ( -768 -8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 8 212 ) ( -768 -8 212 ) ( -1024 -8 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1024 -8 212 ) ( -1024 -8 200 ) ( -1024 8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 8 212 ) ( -768 8 200 ) ( -768 -8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -8 200 ) ( -1024 -8 200 ) ( -1024 -8 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 8 212 ) ( -1024 8 212 ) ( -1024 8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// East crossbeam y=0
+{
+( 768 8 200 ) ( 768 -8 200 ) ( 1024 -8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 8 212 ) ( 1024 -8 212 ) ( 768 -8 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 -8 212 ) ( 768 -8 200 ) ( 768 8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 8 212 ) ( 1024 8 200 ) ( 1024 -8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -8 200 ) ( 768 -8 200 ) ( 768 -8 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 8 212 ) ( 768 8 212 ) ( 768 8 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// West crossbeam y=320
+{
+( -1024 328 200 ) ( -1024 312 200 ) ( -768 312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 328 212 ) ( -768 312 212 ) ( -1024 312 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1024 312 212 ) ( -1024 312 200 ) ( -1024 328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 328 212 ) ( -768 328 200 ) ( -768 312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 312 200 ) ( -1024 312 200 ) ( -1024 312 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 328 212 ) ( -1024 328 212 ) ( -1024 328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// East crossbeam y=320
+{
+( 768 328 200 ) ( 768 312 200 ) ( 1024 312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 328 212 ) ( 1024 312 212 ) ( 768 312 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 768 312 212 ) ( 768 312 200 ) ( 768 328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 328 212 ) ( 1024 328 200 ) ( 1024 312 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 312 200 ) ( 768 312 200 ) ( 768 312 212 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 328 212 ) ( 768 328 212 ) ( 768 328 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
 }
 // ============================================================
 // FLAGS CTF
@@ -5640,5 +6125,94 @@
 "classname" "target_location"
 "message" "East Bridge"
 "origin" "400 0 128"
+}
+
+// ============================================================
+// v38 — NEW LIGHTS & ENTITIES
+// ============================================================
+{
+"classname" "light"
+"origin" "-400 0 -44"
+"light" "200"
+"_color" "0.3 0.7 1.0"
+}
+{
+"classname" "light"
+"origin" "0 0 -44"
+"light" "250"
+"_color" "0.3 0.7 1.0"
+}
+{
+"classname" "light"
+"origin" "400 0 -44"
+"light" "200"
+"_color" "0.3 0.7 1.0"
+}
+{
+"classname" "light"
+"origin" "-700 0 -20"
+"light" "150"
+"_color" "0.2 1.0 0.4"
+}
+{
+"classname" "light"
+"origin" "700 0 -20"
+"light" "150"
+"_color" "0.2 1.0 0.4"
+}
+{
+"classname" "light"
+"origin" "0 -520 170"
+"light" "180"
+"_color" "1.0 0.85 0.7"
+}
+{
+"classname" "light"
+"origin" "0 520 170"
+"light" "180"
+"_color" "1.0 0.85 0.7"
+}
+{
+"classname" "light"
+"origin" "-320 -2040 160"
+"light" "120"
+"_color" "0.2 1.0 0.3"
+}
+{
+"classname" "light"
+"origin" "320 -2040 160"
+"light" "120"
+"_color" "0.2 1.0 0.3"
+}
+{
+"classname" "light"
+"origin" "-320 2040 160"
+"light" "120"
+"_color" "0.2 1.0 0.3"
+}
+{
+"classname" "light"
+"origin" "320 2040 160"
+"light" "120"
+"_color" "0.2 1.0 0.3"
+}
+{
+"classname" "light"
+"origin" "-1010 0 164"
+"light" "100"
+"_color" "0.3 0.7 1.0"
+}
+{
+"classname" "light"
+"origin" "1010 0 164"
+"light" "100"
+"_color" "0.3 0.7 1.0"
+}
+
+// v38 — NEW TARGET LOCATIONS
+{
+"classname" "target_location"
+"message" "Underground Tunnel"
+"origin" "0 0 -44"
 }
 
