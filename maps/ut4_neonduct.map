@@ -960,19 +960,254 @@
 }
 
 // ============================================================
-// PLATEFORME CENTRALE ÉLEVÉE — inspiration turnpike
-// Hauteur z=64 : accès par saut, position dominante contestée
+// CENTRAL BUILDING — 2-story structure (replaces old platform)
+// Ground: (-288,-288,0) to (288,288,128) with 4 openings
+// Upper: (-288,-288,128) to (288,288,240) with windows
+// Roof: z=240
 // ============================================================
 
-// === BRUSH 65 — CENTER ELEVATED PLATFORM ===
-// (-192,-192,0) to (192,192,64)
+// --- GROUND FLOOR SLAB ---
 {
-( -192 192 0 ) ( -192 -192 0 ) ( 192 -192 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
-( 192 192 64 ) ( 192 -192 64 ) ( -192 -192 64 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
-( -192 -192 64 ) ( -192 -192 0 ) ( -192 192 0 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
-( 192 192 64 ) ( 192 192 0 ) ( 192 -192 0 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
-( 192 -192 0 ) ( -192 -192 0 ) ( -192 -192 64 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
-( 192 192 64 ) ( -192 192 64 ) ( -192 192 0 ) tech1soc_wall/half_grill_wall02a 0 0 0 0.5 0.5 0 0 0
+( -288 288 0 ) ( -288 -288 0 ) ( 288 -288 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 8 ) ( 288 -288 8 ) ( -288 -288 8 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -288 -288 8 ) ( -288 -288 0 ) ( -288 288 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 8 ) ( 288 288 0 ) ( 288 -288 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -288 0 ) ( -288 -288 0 ) ( -288 -288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 8 ) ( -288 288 8 ) ( -288 288 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- GF WEST WALL (full, x=-288) ---
+{
+( -288 288 8 ) ( -288 -288 8 ) ( -272 -288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 288 128 ) ( -272 -288 128 ) ( -288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -288 128 ) ( -288 -288 8 ) ( -288 288 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -272 288 128 ) ( -272 288 8 ) ( -272 -288 8 ) tech1soc_wall/grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -272 -288 8 ) ( -288 -288 8 ) ( -288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 288 128 ) ( -288 288 128 ) ( -288 288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- GF EAST WALL (full, x=288) ---
+{
+( 272 288 8 ) ( 272 -288 8 ) ( 288 -288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 288 -288 128 ) ( 272 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 272 -288 128 ) ( 272 -288 8 ) ( 272 288 8 ) tech1soc_wall/grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 288 288 8 ) ( 288 -288 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 288 -288 8 ) ( 272 -288 8 ) ( 272 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 272 288 128 ) ( 272 288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- GF SOUTH WALL LEFT (-288 to -96, y=-288) ---
+{
+( -288 -272 8 ) ( -288 -288 8 ) ( -96 -288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 -272 128 ) ( -96 -288 128 ) ( -288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -288 128 ) ( -288 -288 8 ) ( -288 -272 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 -272 128 ) ( -96 -272 8 ) ( -96 -288 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -96 -288 8 ) ( -288 -288 8 ) ( -288 -288 128 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -96 -272 128 ) ( -288 -272 128 ) ( -288 -272 8 ) tech1soc_wall/grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- GF SOUTH WALL RIGHT (96 to 288, y=-288) ---
+{
+( 96 -272 8 ) ( 96 -288 8 ) ( 288 -288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -272 128 ) ( 288 -288 128 ) ( 96 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 -288 128 ) ( 96 -288 8 ) ( 96 -272 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 288 -272 128 ) ( 288 -272 8 ) ( 288 -288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -288 8 ) ( 96 -288 8 ) ( 96 -288 128 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 288 -272 128 ) ( 96 -272 128 ) ( 96 -272 8 ) tech1soc_wall/grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- GF NORTH WALL LEFT (-288 to -96, y=288) ---
+{
+( -288 288 8 ) ( -288 272 8 ) ( -96 272 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 288 128 ) ( -96 272 128 ) ( -288 272 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 272 128 ) ( -288 272 8 ) ( -288 288 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 288 128 ) ( -96 288 8 ) ( -96 272 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -96 272 8 ) ( -288 272 8 ) ( -288 272 128 ) tech1soc_wall/grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -96 288 128 ) ( -288 288 128 ) ( -288 288 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- GF NORTH WALL RIGHT (96 to 288, y=288) ---
+{
+( 96 288 8 ) ( 96 272 8 ) ( 288 272 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 288 272 128 ) ( 96 272 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 272 128 ) ( 96 272 8 ) ( 96 288 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 288 288 8 ) ( 288 272 8 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 272 8 ) ( 96 272 8 ) ( 96 272 128 ) tech1soc_wall/grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 96 288 128 ) ( 96 288 8 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- UPPER FLOOR SLAB (z=128) ---
+{
+( -288 288 120 ) ( -288 -288 120 ) ( 288 -288 120 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 288 -288 128 ) ( -288 -288 128 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -288 -288 128 ) ( -288 -288 120 ) ( -288 288 120 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( 288 288 120 ) ( 288 -288 120 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -288 120 ) ( -288 -288 120 ) ( -288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 128 ) ( -288 288 128 ) ( -288 288 120 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- UPPER WEST WALL ---
+{
+( -288 288 128 ) ( -288 -288 128 ) ( -272 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 288 240 ) ( -272 -288 240 ) ( -288 -288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -288 240 ) ( -288 -288 128 ) ( -288 288 128 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -272 288 240 ) ( -272 288 128 ) ( -272 -288 128 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( -272 -288 128 ) ( -288 -288 128 ) ( -288 -288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 288 240 ) ( -288 288 240 ) ( -288 288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- UPPER EAST WALL ---
+{
+( 272 288 128 ) ( 272 -288 128 ) ( 288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 240 ) ( 288 -288 240 ) ( 272 -288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 272 -288 240 ) ( 272 -288 128 ) ( 272 288 128 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 288 288 240 ) ( 288 288 128 ) ( 288 -288 128 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 288 -288 128 ) ( 272 -288 128 ) ( 272 -288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 240 ) ( 272 288 240 ) ( 272 288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- UPPER SOUTH WALL (full with window gap at center) ---
+{
+( -288 -272 128 ) ( -288 -288 128 ) ( 288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -272 240 ) ( 288 -288 240 ) ( -288 -288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -288 240 ) ( -288 -288 128 ) ( -288 -272 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -272 240 ) ( 288 -272 128 ) ( 288 -288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -288 128 ) ( -288 -288 128 ) ( -288 -288 240 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 288 -272 240 ) ( -288 -272 240 ) ( -288 -272 128 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- UPPER NORTH WALL ---
+{
+( -288 288 128 ) ( -288 272 128 ) ( 288 272 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 240 ) ( 288 272 240 ) ( -288 272 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 272 240 ) ( -288 272 128 ) ( -288 288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 240 ) ( 288 288 128 ) ( 288 272 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 272 128 ) ( -288 272 128 ) ( -288 272 240 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+( 288 288 240 ) ( -288 288 240 ) ( -288 288 128 ) tech1soc_wall/half_grill_wall01a 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- ROOF SLAB ---
+{
+( -288 288 240 ) ( -288 -288 240 ) ( 288 -288 240 ) tech1soc_mat/mat01a 0 0 0 0.5 0.5 0 0 0
+( 288 288 256 ) ( 288 -288 256 ) ( -288 -288 256 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -288 256 ) ( -288 -288 240 ) ( -288 288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 256 ) ( 288 288 240 ) ( 288 -288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 -288 240 ) ( -288 -288 240 ) ( -288 -288 256 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 288 288 256 ) ( -288 288 256 ) ( -288 288 240 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- STAIRCASE WEST (outside building, z=0-128, 4 steps of 32u) ---
+// Step 1 (z=0-32)
+{
+( -384 -64 0 ) ( -384 64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 32 ) ( -288 64 32 ) ( -384 64 32 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -384 64 32 ) ( -384 64 0 ) ( -384 -64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -288 -64 32 ) ( -288 -64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 64 0 ) ( -384 64 0 ) ( -384 64 32 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 32 ) ( -384 -64 32 ) ( -384 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Step 2 (z=0-64)
+{
+( -352 -64 0 ) ( -352 64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 64 ) ( -288 64 64 ) ( -352 64 64 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -352 64 64 ) ( -352 64 0 ) ( -352 -64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -288 -64 64 ) ( -288 -64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 64 0 ) ( -352 64 0 ) ( -352 64 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 64 ) ( -352 -64 64 ) ( -352 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Step 3 (z=0-96)
+{
+( -320 -64 0 ) ( -320 64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 96 ) ( -288 64 96 ) ( -320 64 96 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -320 64 96 ) ( -320 64 0 ) ( -320 -64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -288 -64 96 ) ( -288 -64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 64 0 ) ( -320 64 0 ) ( -320 64 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 96 ) ( -320 -64 96 ) ( -320 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Step 4 (z=0-128) — landing at upper floor level
+{
+( -304 -64 0 ) ( -304 64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 128 ) ( -288 64 128 ) ( -304 64 128 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -304 64 128 ) ( -304 64 0 ) ( -304 -64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -288 -64 128 ) ( -288 -64 0 ) ( -288 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 64 0 ) ( -304 64 0 ) ( -304 64 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -64 128 ) ( -304 -64 128 ) ( -304 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- STAIRCASE EAST (mirror, z=0-128) ---
+// Step 1
+{
+( 288 -64 0 ) ( 288 64 0 ) ( 384 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 384 -64 32 ) ( 384 64 32 ) ( 288 64 32 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 288 64 32 ) ( 288 64 0 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 384 -64 32 ) ( 384 -64 0 ) ( 384 64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 384 64 0 ) ( 288 64 0 ) ( 288 64 32 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 384 -64 32 ) ( 288 -64 32 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Step 2
+{
+( 288 -64 0 ) ( 288 64 0 ) ( 352 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 352 -64 64 ) ( 352 64 64 ) ( 288 64 64 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 288 64 64 ) ( 288 64 0 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 352 -64 64 ) ( 352 -64 0 ) ( 352 64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 352 64 0 ) ( 288 64 0 ) ( 288 64 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 352 -64 64 ) ( 288 -64 64 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Step 3
+{
+( 288 -64 0 ) ( 288 64 0 ) ( 320 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 320 -64 96 ) ( 320 64 96 ) ( 288 64 96 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 288 64 96 ) ( 288 64 0 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 320 -64 96 ) ( 320 -64 0 ) ( 320 64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 320 64 0 ) ( 288 64 0 ) ( 288 64 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 320 -64 96 ) ( 288 -64 96 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Step 4
+{
+( 288 -64 0 ) ( 288 64 0 ) ( 304 64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 304 -64 128 ) ( 304 64 128 ) ( 288 64 128 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 288 64 128 ) ( 288 64 0 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 304 -64 128 ) ( 304 -64 0 ) ( 304 64 0 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 304 64 0 ) ( 288 64 0 ) ( 288 64 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 304 -64 128 ) ( 288 -64 128 ) ( 288 -64 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// --- BUILDING NEON STRIPS (blue on exterior, green inside) ---
+// Exterior south neon
+{
+( -96 -288 64 ) ( -96 -292 64 ) ( 96 -292 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 -288 72 ) ( 96 -292 72 ) ( -96 -292 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 -292 72 ) ( -96 -292 64 ) ( -96 -288 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 -288 72 ) ( 96 -288 64 ) ( 96 -292 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 -292 64 ) ( -96 -292 64 ) ( -96 -292 72 ) urban_light/blue_light_500 0 0 0 0.5 0.5 0 0 0
+( 96 -288 72 ) ( -96 -288 72 ) ( -96 -288 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Exterior north neon
+{
+( -96 288 64 ) ( -96 292 64 ) ( 96 292 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 288 72 ) ( 96 292 72 ) ( -96 292 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 292 72 ) ( -96 292 64 ) ( -96 288 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 288 72 ) ( 96 288 64 ) ( 96 292 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 292 64 ) ( -96 292 64 ) ( -96 292 72 ) urban_light/blue_light_500 0 0 0 0.5 0.5 0 0 0
+( 96 288 72 ) ( -96 288 72 ) ( -96 288 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Interior ground floor neon (green, z=64-72 on back of west wall)
+{
+( -268 -256 64 ) ( -268 256 64 ) ( -272 256 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 -256 72 ) ( -272 256 72 ) ( -268 256 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -268 256 72 ) ( -268 256 64 ) ( -268 -256 64 ) urban_light/green_light_350 0 0 0 0.5 0.5 0 0 0
+( -272 -256 72 ) ( -272 -256 64 ) ( -272 256 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 256 64 ) ( -268 256 64 ) ( -268 256 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -272 -256 72 ) ( -268 -256 72 ) ( -268 -256 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+// Interior upper floor neon (red, z=192-200)
+{
+( 268 -256 192 ) ( 268 256 192 ) ( 272 256 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 272 -256 200 ) ( 272 256 200 ) ( 268 256 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 268 256 200 ) ( 268 256 192 ) ( 268 -256 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 272 -256 200 ) ( 272 -256 192 ) ( 272 256 192 ) urban_light/red_light_500 0 0 0 0.5 0.5 0 0 0
+( 272 256 192 ) ( 268 256 192 ) ( 268 256 200 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 272 -256 200 ) ( 268 -256 200 ) ( 268 -256 192 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
 }
 
 // ============================================================
