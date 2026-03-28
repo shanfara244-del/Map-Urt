@@ -1,0 +1,16 @@
+*.bsp
+*.srf
+*.prt
+*.lin
+*.pk3
+*.zip
+*.bak
+compile_test*
+fakemap.map
+maps/ut4_abbey*
+maps/ut4_casa*
+maps/test_*
+maps/ut4_min*
+maps/ut4_bp*
+maps/ut4_texprefix*
+v*_patch.ps1

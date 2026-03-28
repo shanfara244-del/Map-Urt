@@ -1,0 +1,6 @@
+{
+	map			"ut4_neonduct"
+	longname	"Neon Duct"
+	type		"ctf"
+	bots		"---"
+}
