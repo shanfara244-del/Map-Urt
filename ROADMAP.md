@@ -191,6 +191,9 @@
 - **[v33]** Alcôves murales avec néons encastrés
 - **[v34]** Refonte des textures + support multi-gametype dans .arena
 - **[v35]** Bâtiment central 2 étages avec escaliers
+- **[v37]** Route surélevée (ponts E-W + rampes + ouvertures bâtiment)
+- **[v37]** Cover défensif près des drapeaux, caisses tactiques, postes d'observation
+- **[v37]** Détails architecturaux : tuyaux, bandes sol, rebords fenêtres, piliers garde-corps
 
 ---
 

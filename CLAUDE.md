@@ -85,17 +85,17 @@ Map-Urt/
 
 ---
 
-## État actuel de la map (v35)
+## État actuel de la map (v37)
 
-La map contient **143 entités** au total :
+La map contient **161 entités** au total (~5644 lignes) :
 
 | Entité | Nombre | Notes |
 |--------|--------|-------|
-| `worldspawn` | 1 | Brushes de géométrie (shell, couloirs, bases, bâtiment central) |
-| `light` | 92 | Éclairage néon (cyan, violet, orange) |
-| `info_ut_spawn` | 32 | 16 red + 16 blue, gametype 7 |
+| `worldspawn` | 1 | ~120 brushes de géométrie |
+| `light` | 108 | Éclairage néon multi-couleur (cyan, violet, orange, vert) |
+| `info_ut_spawn` | 32 | 16 red + 16 blue, gametype 3,4,5,7 |
 | `info_player_deathmatch` | 6 | Spawns FFA de secours |
-| `target_location` | 7 | Noms de zones affichés en jeu |
+| `target_location` | 9 | Noms de zones (+ West/East Bridge) |
 | `team_CTF_redflag` | 1 | Drapeau rouge |
 | `team_CTF_blueflag` | 1 | Drapeau bleu |
 | `func_door` | 2 | Portes automatiques |
@@ -108,10 +108,13 @@ La map contient **143 entités** au total :
 
 ### Géométrie principale
 - **Bases rouge/bleu** symétriques (sud/nord) avec plateformes à marches (z=32, 64, 96)
-- **Bâtiment central 2 étages** avec escaliers
-- **Couloirs latéraux** est/ouest
-- **Murs intérieurs** avec alcôves éclairées par des néons
-- **Détails architecturaux** : plinthes, encadrements, panneaux de plafond, piliers néon, caisses
+- **Bâtiment central 2 étages** avec escaliers et ouvertures pour les ponts
+- **Ponts surélevés** est/ouest (z=128) reliant les walkways au bâtiment central (4e route)
+- **Rampes d'accès** aux ponts (4 marches par côté)
+- **Couloirs latéraux** est/ouest avec postes d'observation surélevés
+- **Murs intérieurs** avec alcôves éclairées, fenêtres et rebords (wall-jumps)
+- **Murs de couverture** près des drapeaux (défense)
+- **Détails architecturaux** : plinthes, encadrements, panneaux de plafond, piliers néon, caisses empilées, tuyaux industriels, bandes de sol décoratives, piliers de garde-corps
 
 ---
 
@@ -199,12 +202,21 @@ Ambient : "ambient" "15"  dans worldspawn (valeur actuelle)
 
 ## Textures utilisées
 
-### Textures actuellement dans la map
+### Textures actuellement dans la map (16 uniques)
 ```
-tech1soc_floor/block01a    — sol principal
-tech1soc_wall/grill_wall01a — murs intérieurs
-tech1soc_mat/mat01a        — plafond
-metal/metal_darkgrey       — faces extérieures / arrière des murs
+tech1soc_floor/block01a        — sol principal, dessus de caisses
+tech1soc_wall/grill_wall01a    — murs intérieurs (couloir central)
+tech1soc_wall/grill_wall03a    — murs détaillés, couvertures
+tech1soc_wall/half_grill_wall01a — murs demi-hauteur, bases, parapets
+tech1soc_wall/half_grill_wall02a — murs de base, barrières
+tech1soc_mat/mat01a            — plafond
+tech1soc_trim/032-01a          — trims, plinthes, rebords, encadrements
+metal/metal_darkgrey           — faces extérieures / arrière des murs
+urban_light/blue_light_500     — néon bleu/cyan (ponts, bâtiment)
+urban_light/green_light_200    — néon vert (piliers)
+urban_light/green_light_350    — néon vert intérieur bâtiment
+urban_light/red_light_500      — néon rouge intérieur bâtiment
+sweetnutz/sn_door7             — portes coulissantes
 ```
 
 ### Textures utilitaires (common)
