@@ -3716,112 +3716,112 @@
 "origin" "-512 -1920 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-256 -1920 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "0 -1920 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "256 -1920 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "512 -1920 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-512 -1984 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-256 -1984 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "0 -1984 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "256 -1984 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "512 -1984 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-384 -1856 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-128 -1856 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "128 -1856 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "384 -1856 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-256 -1792 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "256 -1792 98"
 "angle" "90"
 "team" "red"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 
 // ============================================================
@@ -3832,112 +3832,112 @@
 "origin" "-512 1920 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-256 1920 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "0 1920 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "256 1920 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "512 1920 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-512 1984 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-256 1984 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "0 1984 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "256 1984 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "512 1984 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-384 1856 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-128 1856 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "128 1856 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "384 1856 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "-256 1792 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 {
 "classname" "info_ut_spawn"
 "origin" "256 1792 98"
 "angle" "270"
 "team" "blue"
-"g_gametype" "7"
+"g_gametype" "3,4,5,7"
 }
 
 // ============================================================
