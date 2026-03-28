@@ -194,6 +194,8 @@
 - **[v37]** Route surélevée (ponts E-W + rampes + ouvertures bâtiment)
 - **[v37]** Cover défensif près des drapeaux, caisses tactiques, postes d'observation
 - **[v37]** Détails architecturaux : tuyaux, bandes sol, rebords fenêtres, piliers garde-corps
+- **[v38]** Tunnel souterrain (5e route), arches de couloir, consoles murales, poutres
+- **[v39]** Balcons mezzanine, barricades bases, caps piliers, néons équipe, ventilation
 
 ---
 

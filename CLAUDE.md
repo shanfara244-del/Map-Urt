@@ -85,17 +85,17 @@ Map-Urt/
 
 ---
 
-## État actuel de la map (v37)
+## État actuel de la map (v39)
 
-La map contient **161 entités** au total (~5644 lignes) :
+La map contient **187 entités** au total (~6596 lignes, BSP 1.7 MB) :
 
 | Entité | Nombre | Notes |
 |--------|--------|-------|
-| `worldspawn` | 1 | ~120 brushes de géométrie |
-| `light` | 108 | Éclairage néon multi-couleur (cyan, violet, orange, vert) |
+| `worldspawn` | 1 | ~200 brushes de géométrie |
+| `light` | 133 | Éclairage néon multi-couleur (cyan, violet, orange, vert, rouge) |
 | `info_ut_spawn` | 32 | 16 red + 16 blue, gametype 3,4,5,7 |
 | `info_player_deathmatch` | 6 | Spawns FFA de secours |
-| `target_location` | 9 | Noms de zones (+ West/East Bridge) |
+| `target_location` | 12 | Noms de zones (bases, centre, flancs, ponts, tunnel) |
 | `team_CTF_redflag` | 1 | Drapeau rouge |
 | `team_CTF_blueflag` | 1 | Drapeau bleu |
 | `func_door` | 2 | Portes automatiques |
@@ -110,11 +110,13 @@ La map contient **161 entités** au total (~5644 lignes) :
 - **Bases rouge/bleu** symétriques (sud/nord) avec plateformes à marches (z=32, 64, 96)
 - **Bâtiment central 2 étages** avec escaliers et ouvertures pour les ponts
 - **Ponts surélevés** est/ouest (z=128) reliant les walkways au bâtiment central (4e route)
+- **Tunnel souterrain** (z=-80, 5e route) avec escaliers d'accès, pilier central, néons cyan
 - **Rampes d'accès** aux ponts (4 marches par côté)
-- **Couloirs latéraux** est/ouest avec postes d'observation surélevés
-- **Murs intérieurs** avec alcôves éclairées, fenêtres et rebords (wall-jumps)
-- **Murs de couverture** près des drapeaux (défense)
-- **Détails architecturaux** : plinthes, encadrements, panneaux de plafond, piliers néon, caisses empilées, tuyaux industriels, bandes de sol décoratives, piliers de garde-corps
+- **Couloirs latéraux** est/ouest avec postes d'observation et balcons mezzanine
+- **Murs intérieurs** avec alcôves éclairées, fenêtres, rebords (wall-jumps), arches d'entrée
+- **Murs de couverture** près des drapeaux + barricades intérieures + murs diviseurs
+- **Néons d'identification** rouge/bleu aux entrées des bases
+- **Détails architecturaux** : plinthes, encadrements, panneaux plafond, piliers néon avec caps, caisses empilées, tuyaux industriels, bandes de sol, piliers de garde-corps, poutres transversales, consoles murales, grilles de sol, panneaux de ventilation
 
 ---
 
