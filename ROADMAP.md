@@ -24,14 +24,16 @@
 ## PHASE 2 — Création du squelette de map
 `[✓]` **2.1** Générer `maps/ut4_neonduct.map` (worldspawn + géométrie de base + entités)
 `[✓]` **2.2** Générer `scripts/ut4_neonduct.arena`
-`[→]` **2.3** L'utilisateur ouvre la map dans NetRadiant → screenshot → validation
+`[✓]` **2.3** Ajouter les items de pickup gameplay (medkits, kevlar, helmet, silencer, laser, ammo, NVG)
+`[✓]` **2.4** Créer `scripts/ut4_neonduct.shader` (shaders néon : cyan, violet, orange, vert, team glows)
+`[→]` **2.5** L'utilisateur ouvre la map dans NetRadiant → screenshot → validation
 
 ---
 
 ## PHASE 3 — Première compilation et test
 `[ ]` **3.1** Lancer compile.bat → vérifier zéro erreur de leak
 `[ ]` **3.2** Copier le BSP dans UrT → tester en jeu
-`[ ]` **3.3** Screenshot depuis UrT → valider lumières néon + flags + spawns
+`[ ]` **3.3** Screenshot depuis UrT → valider lumières néon + flags + spawns + items
 
 ---
 
@@ -76,3 +78,5 @@ Points à valider avant de clore cette phase :
 - **[init]** Thème : souterrain industriel néon
 - **[init]** Mode : CTF uniquement
 - **[init]** Palette néon : cyan principal, violet secondaire, orange accent
+- **[2026-03-28]** Ajout 22 items pickup : 6 medkits, 4 kevlar, 2 helmets, 2 silencers, 2 lasers, 4 extra ammo, 2 NVG
+- **[2026-03-28]** Création shader file avec 7 shaders surface-light (neon_cyan, neon_violet, neon_orange, neon_green, glow_red, glow_blue, light_panel)

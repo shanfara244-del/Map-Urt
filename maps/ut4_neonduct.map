@@ -4938,6 +4938,121 @@
 }
 
 // ============================================================
+// PICKUP ITEMS — UrT gameplay items
+// ============================================================
+
+// --- MEDKITS (×6) — distributed along routes ---
+// Central building ground floor
+{
+"classname" "ut_item_medkit"
+"origin" "0 0 16"
+}
+// West walkway
+{
+"classname" "ut_item_medkit"
+"origin" "-896 -256 80"
+}
+{
+"classname" "ut_item_medkit"
+"origin" "-896 256 80"
+}
+// East walkway
+{
+"classname" "ut_item_medkit"
+"origin" "896 -256 80"
+}
+{
+"classname" "ut_item_medkit"
+"origin" "896 256 80"
+}
+// Central building upper floor
+{
+"classname" "ut_item_medkit"
+"origin" "0 0 148"
+}
+
+// --- KEVLAR VESTS (×4) — reward for flanking ---
+// West walkway mid
+{
+"classname" "ut_item_kevlar"
+"origin" "-896 0 80"
+}
+// East walkway mid
+{
+"classname" "ut_item_kevlar"
+"origin" "896 0 80"
+}
+// Near red approach
+{
+"classname" "ut_item_kevlar"
+"origin" "0 -768 16"
+}
+// Near blue approach
+{
+"classname" "ut_item_kevlar"
+"origin" "0 768 16"
+}
+
+// --- HELMETS (×2) — high-risk central position ---
+// Central building upper floor sides
+{
+"classname" "ut_item_helmet"
+"origin" "-192 0 148"
+}
+{
+"classname" "ut_item_helmet"
+"origin" "192 0 148"
+}
+
+// --- SILENCERS (×2) — flanking routes ---
+{
+"classname" "ut_item_silencer"
+"origin" "-896 -512 80"
+}
+{
+"classname" "ut_item_silencer"
+"origin" "896 512 80"
+}
+
+// --- LASER SIGHTS (×2) — approach corridors ---
+{
+"classname" "ut_item_laser"
+"origin" "-384 -1100 16"
+}
+{
+"classname" "ut_item_laser"
+"origin" "384 1100 16"
+}
+
+// --- EXTRA AMMO (×4) — near bases ---
+{
+"classname" "ut_item_extraammo"
+"origin" "-384 -1500 48"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "384 -1500 48"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "-384 1500 48"
+}
+{
+"classname" "ut_item_extraammo"
+"origin" "384 1500 48"
+}
+
+// --- NVG (×2) — dark flanking routes, rare pickup ---
+{
+"classname" "ut_item_nvg"
+"origin" "-960 -384 80"
+}
+{
+"classname" "ut_item_nvg"
+"origin" "960 384 80"
+}
+
+// ============================================================
 // INTERMISSION CAMERA
 // ============================================================
 {
