@@ -10211,6 +10211,2224 @@
 
 // v42 total: 181 brushes
 
+// v43 MEGA — 300+ brushes: rooms, ceilings, props, windows
+
+// === LOWERED CORRIDOR CEILINGS (z=192) — 10 sections ===
+{
+( -512 -960 184 ) ( -512 -1200 184 ) ( 512 -1200 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 -960 192 ) ( 512 -1200 192 ) ( -512 -1200 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1200 192 ) ( -512 -1200 184 ) ( -512 -960 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -960 192 ) ( 512 -960 184 ) ( 512 -1200 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -1200 184 ) ( -512 -1200 184 ) ( -512 -1200 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -960 192 ) ( -512 -960 192 ) ( -512 -960 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 -720 184 ) ( -512 -960 184 ) ( 512 -960 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 -720 192 ) ( 512 -960 192 ) ( -512 -960 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -960 192 ) ( -512 -960 184 ) ( -512 -720 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -720 192 ) ( 512 -720 184 ) ( 512 -960 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -960 184 ) ( -512 -960 184 ) ( -512 -960 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -720 192 ) ( -512 -720 192 ) ( -512 -720 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 -480 184 ) ( -512 -720 184 ) ( 512 -720 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 -480 192 ) ( 512 -720 192 ) ( -512 -720 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -720 192 ) ( -512 -720 184 ) ( -512 -480 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -480 192 ) ( 512 -480 184 ) ( 512 -720 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -720 184 ) ( -512 -720 184 ) ( -512 -720 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -480 192 ) ( -512 -480 192 ) ( -512 -480 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 -240 184 ) ( -512 -480 184 ) ( 512 -480 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 -240 192 ) ( 512 -480 192 ) ( -512 -480 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -480 192 ) ( -512 -480 184 ) ( -512 -240 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -240 192 ) ( 512 -240 184 ) ( 512 -480 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -480 184 ) ( -512 -480 184 ) ( -512 -480 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -240 192 ) ( -512 -240 192 ) ( -512 -240 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 0 184 ) ( -512 -240 184 ) ( 512 -240 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 0 192 ) ( 512 -240 192 ) ( -512 -240 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -240 192 ) ( -512 -240 184 ) ( -512 0 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 0 192 ) ( 512 0 184 ) ( 512 -240 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -240 184 ) ( -512 -240 184 ) ( -512 -240 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 0 192 ) ( -512 0 192 ) ( -512 0 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 240 184 ) ( -512 0 184 ) ( 512 0 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 240 192 ) ( 512 0 192 ) ( -512 0 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 0 192 ) ( -512 0 184 ) ( -512 240 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 240 192 ) ( 512 240 184 ) ( 512 0 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 0 184 ) ( -512 0 184 ) ( -512 0 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 240 192 ) ( -512 240 192 ) ( -512 240 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 480 184 ) ( -512 240 184 ) ( 512 240 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 480 192 ) ( 512 240 192 ) ( -512 240 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 240 192 ) ( -512 240 184 ) ( -512 480 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 480 192 ) ( 512 480 184 ) ( 512 240 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 240 184 ) ( -512 240 184 ) ( -512 240 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 480 192 ) ( -512 480 192 ) ( -512 480 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 720 184 ) ( -512 480 184 ) ( 512 480 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 720 192 ) ( 512 480 192 ) ( -512 480 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 480 192 ) ( -512 480 184 ) ( -512 720 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 720 192 ) ( 512 720 184 ) ( 512 480 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 480 184 ) ( -512 480 184 ) ( -512 480 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 720 192 ) ( -512 720 192 ) ( -512 720 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 960 184 ) ( -512 720 184 ) ( 512 720 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 960 192 ) ( 512 720 192 ) ( -512 720 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 720 192 ) ( -512 720 184 ) ( -512 960 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 960 192 ) ( 512 960 184 ) ( 512 720 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 720 184 ) ( -512 720 184 ) ( -512 720 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 960 192 ) ( -512 960 192 ) ( -512 960 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 1200 184 ) ( -512 960 184 ) ( 512 960 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 1200 192 ) ( 512 960 192 ) ( -512 960 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 960 192 ) ( -512 960 184 ) ( -512 1200 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 1200 192 ) ( 512 1200 184 ) ( 512 960 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 960 184 ) ( -512 960 184 ) ( -512 960 192 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 1200 192 ) ( -512 1200 192 ) ( -512 1200 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+
+// === LOWERED FLANK CEILINGS (z=152) — 8 sections ===
+{
+( -1024 -240 144 ) ( -1024 -480 144 ) ( -768 -480 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -240 152 ) ( -768 -480 152 ) ( -1024 -480 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1024 -480 152 ) ( -1024 -480 144 ) ( -1024 -240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -240 152 ) ( -768 -240 144 ) ( -768 -480 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -480 144 ) ( -1024 -480 144 ) ( -1024 -480 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -240 152 ) ( -1024 -240 152 ) ( -1024 -240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -240 144 ) ( 768 -480 144 ) ( 1024 -480 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -240 152 ) ( 1024 -480 152 ) ( 768 -480 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 768 -480 152 ) ( 768 -480 144 ) ( 768 -240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -240 152 ) ( 1024 -240 144 ) ( 1024 -480 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -480 144 ) ( 768 -480 144 ) ( 768 -480 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -240 152 ) ( 768 -240 152 ) ( 768 -240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 0 144 ) ( -1024 -240 144 ) ( -768 -240 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 0 152 ) ( -768 -240 152 ) ( -1024 -240 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1024 -240 152 ) ( -1024 -240 144 ) ( -1024 0 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 0 152 ) ( -768 0 144 ) ( -768 -240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -240 144 ) ( -1024 -240 144 ) ( -1024 -240 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 0 152 ) ( -1024 0 152 ) ( -1024 0 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 0 144 ) ( 768 -240 144 ) ( 1024 -240 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 0 152 ) ( 1024 -240 152 ) ( 768 -240 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 768 -240 152 ) ( 768 -240 144 ) ( 768 0 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 0 152 ) ( 1024 0 144 ) ( 1024 -240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -240 144 ) ( 768 -240 144 ) ( 768 -240 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 0 152 ) ( 768 0 152 ) ( 768 0 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 240 144 ) ( -1024 0 144 ) ( -768 0 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 240 152 ) ( -768 0 152 ) ( -1024 0 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1024 0 152 ) ( -1024 0 144 ) ( -1024 240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 240 152 ) ( -768 240 144 ) ( -768 0 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 0 144 ) ( -1024 0 144 ) ( -1024 0 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 240 152 ) ( -1024 240 152 ) ( -1024 240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 240 144 ) ( 768 0 144 ) ( 1024 0 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 240 152 ) ( 1024 0 152 ) ( 768 0 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 768 0 152 ) ( 768 0 144 ) ( 768 240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 240 152 ) ( 1024 240 144 ) ( 1024 0 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 0 144 ) ( 768 0 144 ) ( 768 0 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 240 152 ) ( 768 240 152 ) ( 768 240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 480 144 ) ( -1024 240 144 ) ( -768 240 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 480 152 ) ( -768 240 152 ) ( -1024 240 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1024 240 152 ) ( -1024 240 144 ) ( -1024 480 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 480 152 ) ( -768 480 144 ) ( -768 240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 240 144 ) ( -1024 240 144 ) ( -1024 240 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 480 152 ) ( -1024 480 152 ) ( -1024 480 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 480 144 ) ( 768 240 144 ) ( 1024 240 144 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 480 152 ) ( 1024 240 152 ) ( 768 240 152 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 768 240 152 ) ( 768 240 144 ) ( 768 480 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 480 152 ) ( 1024 480 144 ) ( 1024 240 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 240 144 ) ( 768 240 144 ) ( 768 240 152 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 480 152 ) ( 768 480 152 ) ( 768 480 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+
+// === CORRIDOR WALL PANELS (inset 8u) — 20 panels ===
+{
+( -520 -1110 16 ) ( -520 -1190 16 ) ( -512 -1190 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -1110 176 ) ( -512 -1190 176 ) ( -520 -1190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 -1190 176 ) ( -520 -1190 16 ) ( -520 -1110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -1110 176 ) ( -512 -1110 16 ) ( -512 -1190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -1190 16 ) ( -520 -1190 16 ) ( -520 -1190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -1110 176 ) ( -520 -1110 176 ) ( -520 -1110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -1110 16 ) ( 512 -1190 16 ) ( 520 -1190 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 -1110 176 ) ( 520 -1190 176 ) ( 512 -1190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 -1190 176 ) ( 512 -1190 16 ) ( 512 -1110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -1110 176 ) ( 520 -1110 16 ) ( 520 -1190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -1190 16 ) ( 512 -1190 16 ) ( 512 -1190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -1110 176 ) ( 512 -1110 176 ) ( 512 -1110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 -860 16 ) ( -520 -940 16 ) ( -512 -940 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -860 176 ) ( -512 -940 176 ) ( -520 -940 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 -940 176 ) ( -520 -940 16 ) ( -520 -860 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -860 176 ) ( -512 -860 16 ) ( -512 -940 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -940 16 ) ( -520 -940 16 ) ( -520 -940 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -860 176 ) ( -520 -860 176 ) ( -520 -860 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -860 16 ) ( 512 -940 16 ) ( 520 -940 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 -860 176 ) ( 520 -940 176 ) ( 512 -940 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 -940 176 ) ( 512 -940 16 ) ( 512 -860 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -860 176 ) ( 520 -860 16 ) ( 520 -940 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -940 16 ) ( 512 -940 16 ) ( 512 -940 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -860 176 ) ( 512 -860 176 ) ( 512 -860 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 -610 16 ) ( -520 -690 16 ) ( -512 -690 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -610 176 ) ( -512 -690 176 ) ( -520 -690 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 -690 176 ) ( -520 -690 16 ) ( -520 -610 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -610 176 ) ( -512 -610 16 ) ( -512 -690 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -690 16 ) ( -520 -690 16 ) ( -520 -690 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -610 176 ) ( -520 -610 176 ) ( -520 -610 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -610 16 ) ( 512 -690 16 ) ( 520 -690 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 -610 176 ) ( 520 -690 176 ) ( 512 -690 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 -690 176 ) ( 512 -690 16 ) ( 512 -610 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -610 176 ) ( 520 -610 16 ) ( 520 -690 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -690 16 ) ( 512 -690 16 ) ( 512 -690 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -610 176 ) ( 512 -610 176 ) ( 512 -610 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 -360 16 ) ( -520 -440 16 ) ( -512 -440 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -360 176 ) ( -512 -440 176 ) ( -520 -440 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 -440 176 ) ( -520 -440 16 ) ( -520 -360 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -360 176 ) ( -512 -360 16 ) ( -512 -440 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -440 16 ) ( -520 -440 16 ) ( -520 -440 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -360 176 ) ( -520 -360 176 ) ( -520 -360 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -360 16 ) ( 512 -440 16 ) ( 520 -440 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 -360 176 ) ( 520 -440 176 ) ( 512 -440 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 -440 176 ) ( 512 -440 16 ) ( 512 -360 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -360 176 ) ( 520 -360 16 ) ( 520 -440 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -440 16 ) ( 512 -440 16 ) ( 512 -440 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -360 176 ) ( 512 -360 176 ) ( 512 -360 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 -110 16 ) ( -520 -190 16 ) ( -512 -190 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -110 176 ) ( -512 -190 176 ) ( -520 -190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 -190 176 ) ( -520 -190 16 ) ( -520 -110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -110 176 ) ( -512 -110 16 ) ( -512 -190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -190 16 ) ( -520 -190 16 ) ( -520 -190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 -110 176 ) ( -520 -110 176 ) ( -520 -110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -110 16 ) ( 512 -190 16 ) ( 520 -190 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 -110 176 ) ( 520 -190 176 ) ( 512 -190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 -190 176 ) ( 512 -190 16 ) ( 512 -110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -110 176 ) ( 520 -110 16 ) ( 520 -190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -190 16 ) ( 512 -190 16 ) ( 512 -190 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 -110 176 ) ( 512 -110 176 ) ( 512 -110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 190 16 ) ( -520 110 16 ) ( -512 110 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 190 176 ) ( -512 110 176 ) ( -520 110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 110 176 ) ( -520 110 16 ) ( -520 190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 190 176 ) ( -512 190 16 ) ( -512 110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 110 16 ) ( -520 110 16 ) ( -520 110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 190 176 ) ( -520 190 176 ) ( -520 190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 190 16 ) ( 512 110 16 ) ( 520 110 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 190 176 ) ( 520 110 176 ) ( 512 110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 110 176 ) ( 512 110 16 ) ( 512 190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 190 176 ) ( 520 190 16 ) ( 520 110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 110 16 ) ( 512 110 16 ) ( 512 110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 190 176 ) ( 512 190 176 ) ( 512 190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 440 16 ) ( -520 360 16 ) ( -512 360 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 440 176 ) ( -512 360 176 ) ( -520 360 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 360 176 ) ( -520 360 16 ) ( -520 440 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 440 176 ) ( -512 440 16 ) ( -512 360 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 360 16 ) ( -520 360 16 ) ( -520 360 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 440 176 ) ( -520 440 176 ) ( -520 440 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 440 16 ) ( 512 360 16 ) ( 520 360 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 440 176 ) ( 520 360 176 ) ( 512 360 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 360 176 ) ( 512 360 16 ) ( 512 440 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 440 176 ) ( 520 440 16 ) ( 520 360 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 360 16 ) ( 512 360 16 ) ( 512 360 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 440 176 ) ( 512 440 176 ) ( 512 440 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 690 16 ) ( -520 610 16 ) ( -512 610 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 690 176 ) ( -512 610 176 ) ( -520 610 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 610 176 ) ( -520 610 16 ) ( -520 690 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 690 176 ) ( -512 690 16 ) ( -512 610 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 610 16 ) ( -520 610 16 ) ( -520 610 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 690 176 ) ( -520 690 176 ) ( -520 690 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 690 16 ) ( 512 610 16 ) ( 520 610 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 690 176 ) ( 520 610 176 ) ( 512 610 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 610 176 ) ( 512 610 16 ) ( 512 690 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 690 176 ) ( 520 690 16 ) ( 520 610 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 610 16 ) ( 512 610 16 ) ( 512 610 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 690 176 ) ( 512 690 176 ) ( 512 690 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 940 16 ) ( -520 860 16 ) ( -512 860 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 940 176 ) ( -512 860 176 ) ( -520 860 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 860 176 ) ( -520 860 16 ) ( -520 940 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 940 176 ) ( -512 940 16 ) ( -512 860 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 860 16 ) ( -520 860 16 ) ( -520 860 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 940 176 ) ( -520 940 176 ) ( -520 940 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 940 16 ) ( 512 860 16 ) ( 520 860 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 940 176 ) ( 520 860 176 ) ( 512 860 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 860 176 ) ( 512 860 16 ) ( 512 940 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 940 176 ) ( 520 940 16 ) ( 520 860 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 860 16 ) ( 512 860 16 ) ( 512 860 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 940 176 ) ( 512 940 176 ) ( 512 940 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -520 1190 16 ) ( -520 1110 16 ) ( -512 1110 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 1190 176 ) ( -512 1110 176 ) ( -520 1110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -520 1110 176 ) ( -520 1110 16 ) ( -520 1190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 1190 176 ) ( -512 1190 16 ) ( -512 1110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 1110 16 ) ( -520 1110 16 ) ( -520 1110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -512 1190 176 ) ( -520 1190 176 ) ( -520 1190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 1190 16 ) ( 512 1110 16 ) ( 520 1110 16 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 520 1190 176 ) ( 520 1110 176 ) ( 512 1110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 512 1110 176 ) ( 512 1110 16 ) ( 512 1190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 1190 176 ) ( 520 1190 16 ) ( 520 1110 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 1110 16 ) ( 512 1110 16 ) ( 512 1110 176 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 520 1190 176 ) ( 512 1190 176 ) ( 512 1190 16 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+
+// === CORRIDOR PILLAR TRIM RINGS — 26 trim caps ===
+{
+( -500 -1180 0 ) ( -500 -1220 0 ) ( -460 -1220 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 -1180 4 ) ( -460 -1220 4 ) ( -500 -1220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -1220 4 ) ( -500 -1220 0 ) ( -500 -1180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -1180 4 ) ( -460 -1180 0 ) ( -460 -1220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -1220 0 ) ( -500 -1220 0 ) ( -500 -1220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -1180 4 ) ( -500 -1180 4 ) ( -500 -1180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 -1180 0 ) ( 460 -1220 0 ) ( 500 -1220 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -1180 4 ) ( 500 -1220 4 ) ( 460 -1220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -1220 4 ) ( 460 -1220 0 ) ( 460 -1180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -1180 4 ) ( 500 -1180 0 ) ( 500 -1220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -1220 0 ) ( 460 -1220 0 ) ( 460 -1220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -1180 4 ) ( 460 -1180 4 ) ( 460 -1180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -980 0 ) ( -500 -1020 0 ) ( -460 -1020 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 -980 4 ) ( -460 -1020 4 ) ( -500 -1020 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -1020 4 ) ( -500 -1020 0 ) ( -500 -980 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -980 4 ) ( -460 -980 0 ) ( -460 -1020 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -1020 0 ) ( -500 -1020 0 ) ( -500 -1020 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -980 4 ) ( -500 -980 4 ) ( -500 -980 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 -980 0 ) ( 460 -1020 0 ) ( 500 -1020 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -980 4 ) ( 500 -1020 4 ) ( 460 -1020 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -1020 4 ) ( 460 -1020 0 ) ( 460 -980 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -980 4 ) ( 500 -980 0 ) ( 500 -1020 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -1020 0 ) ( 460 -1020 0 ) ( 460 -1020 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -980 4 ) ( 460 -980 4 ) ( 460 -980 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -780 0 ) ( -500 -820 0 ) ( -460 -820 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 -780 4 ) ( -460 -820 4 ) ( -500 -820 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -820 4 ) ( -500 -820 0 ) ( -500 -780 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -780 4 ) ( -460 -780 0 ) ( -460 -820 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -820 0 ) ( -500 -820 0 ) ( -500 -820 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -780 4 ) ( -500 -780 4 ) ( -500 -780 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 -780 0 ) ( 460 -820 0 ) ( 500 -820 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -780 4 ) ( 500 -820 4 ) ( 460 -820 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -820 4 ) ( 460 -820 0 ) ( 460 -780 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -780 4 ) ( 500 -780 0 ) ( 500 -820 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -820 0 ) ( 460 -820 0 ) ( 460 -820 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -780 4 ) ( 460 -780 4 ) ( 460 -780 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -580 0 ) ( -500 -620 0 ) ( -460 -620 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 -580 4 ) ( -460 -620 4 ) ( -500 -620 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -620 4 ) ( -500 -620 0 ) ( -500 -580 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -580 4 ) ( -460 -580 0 ) ( -460 -620 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -620 0 ) ( -500 -620 0 ) ( -500 -620 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -580 4 ) ( -500 -580 4 ) ( -500 -580 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 -580 0 ) ( 460 -620 0 ) ( 500 -620 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -580 4 ) ( 500 -620 4 ) ( 460 -620 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -620 4 ) ( 460 -620 0 ) ( 460 -580 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -580 4 ) ( 500 -580 0 ) ( 500 -620 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -620 0 ) ( 460 -620 0 ) ( 460 -620 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -580 4 ) ( 460 -580 4 ) ( 460 -580 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -380 0 ) ( -500 -420 0 ) ( -460 -420 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 -380 4 ) ( -460 -420 4 ) ( -500 -420 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -420 4 ) ( -500 -420 0 ) ( -500 -380 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -380 4 ) ( -460 -380 0 ) ( -460 -420 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -420 0 ) ( -500 -420 0 ) ( -500 -420 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -380 4 ) ( -500 -380 4 ) ( -500 -380 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 -380 0 ) ( 460 -420 0 ) ( 500 -420 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -380 4 ) ( 500 -420 4 ) ( 460 -420 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -420 4 ) ( 460 -420 0 ) ( 460 -380 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -380 4 ) ( 500 -380 0 ) ( 500 -420 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -420 0 ) ( 460 -420 0 ) ( 460 -420 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -380 4 ) ( 460 -380 4 ) ( 460 -380 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -180 0 ) ( -500 -220 0 ) ( -460 -220 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 -180 4 ) ( -460 -220 4 ) ( -500 -220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -220 4 ) ( -500 -220 0 ) ( -500 -180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -180 4 ) ( -460 -180 0 ) ( -460 -220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -220 0 ) ( -500 -220 0 ) ( -500 -220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -180 4 ) ( -500 -180 4 ) ( -500 -180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 -180 0 ) ( 460 -220 0 ) ( 500 -220 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -180 4 ) ( 500 -220 4 ) ( 460 -220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -220 4 ) ( 460 -220 0 ) ( 460 -180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -180 4 ) ( 500 -180 0 ) ( 500 -220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -220 0 ) ( 460 -220 0 ) ( 460 -220 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -180 4 ) ( 460 -180 4 ) ( 460 -180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 20 0 ) ( -500 -20 0 ) ( -460 -20 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 20 4 ) ( -460 -20 4 ) ( -500 -20 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 -20 4 ) ( -500 -20 0 ) ( -500 20 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 20 4 ) ( -460 20 0 ) ( -460 -20 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 -20 0 ) ( -500 -20 0 ) ( -500 -20 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 20 4 ) ( -500 20 4 ) ( -500 20 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 20 0 ) ( 460 -20 0 ) ( 500 -20 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 20 4 ) ( 500 -20 4 ) ( 460 -20 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 -20 4 ) ( 460 -20 0 ) ( 460 20 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 20 4 ) ( 500 20 0 ) ( 500 -20 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 -20 0 ) ( 460 -20 0 ) ( 460 -20 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 20 4 ) ( 460 20 4 ) ( 460 20 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 220 0 ) ( -500 180 0 ) ( -460 180 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 220 4 ) ( -460 180 4 ) ( -500 180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 180 4 ) ( -500 180 0 ) ( -500 220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 220 4 ) ( -460 220 0 ) ( -460 180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 180 0 ) ( -500 180 0 ) ( -500 180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 220 4 ) ( -500 220 4 ) ( -500 220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 220 0 ) ( 460 180 0 ) ( 500 180 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 220 4 ) ( 500 180 4 ) ( 460 180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 180 4 ) ( 460 180 0 ) ( 460 220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 220 4 ) ( 500 220 0 ) ( 500 180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 180 0 ) ( 460 180 0 ) ( 460 180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 220 4 ) ( 460 220 4 ) ( 460 220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 420 0 ) ( -500 380 0 ) ( -460 380 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 420 4 ) ( -460 380 4 ) ( -500 380 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 380 4 ) ( -500 380 0 ) ( -500 420 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 420 4 ) ( -460 420 0 ) ( -460 380 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 380 0 ) ( -500 380 0 ) ( -500 380 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 420 4 ) ( -500 420 4 ) ( -500 420 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 420 0 ) ( 460 380 0 ) ( 500 380 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 420 4 ) ( 500 380 4 ) ( 460 380 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 380 4 ) ( 460 380 0 ) ( 460 420 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 420 4 ) ( 500 420 0 ) ( 500 380 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 380 0 ) ( 460 380 0 ) ( 460 380 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 420 4 ) ( 460 420 4 ) ( 460 420 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 620 0 ) ( -500 580 0 ) ( -460 580 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 620 4 ) ( -460 580 4 ) ( -500 580 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 580 4 ) ( -500 580 0 ) ( -500 620 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 620 4 ) ( -460 620 0 ) ( -460 580 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 580 0 ) ( -500 580 0 ) ( -500 580 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 620 4 ) ( -500 620 4 ) ( -500 620 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 620 0 ) ( 460 580 0 ) ( 500 580 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 620 4 ) ( 500 580 4 ) ( 460 580 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 580 4 ) ( 460 580 0 ) ( 460 620 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 620 4 ) ( 500 620 0 ) ( 500 580 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 580 0 ) ( 460 580 0 ) ( 460 580 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 620 4 ) ( 460 620 4 ) ( 460 620 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 820 0 ) ( -500 780 0 ) ( -460 780 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 820 4 ) ( -460 780 4 ) ( -500 780 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 780 4 ) ( -500 780 0 ) ( -500 820 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 820 4 ) ( -460 820 0 ) ( -460 780 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 780 0 ) ( -500 780 0 ) ( -500 780 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 820 4 ) ( -500 820 4 ) ( -500 820 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 820 0 ) ( 460 780 0 ) ( 500 780 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 820 4 ) ( 500 780 4 ) ( 460 780 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 780 4 ) ( 460 780 0 ) ( 460 820 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 820 4 ) ( 500 820 0 ) ( 500 780 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 780 0 ) ( 460 780 0 ) ( 460 780 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 820 4 ) ( 460 820 4 ) ( 460 820 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 1020 0 ) ( -500 980 0 ) ( -460 980 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 1020 4 ) ( -460 980 4 ) ( -500 980 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 980 4 ) ( -500 980 0 ) ( -500 1020 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 1020 4 ) ( -460 1020 0 ) ( -460 980 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 980 0 ) ( -500 980 0 ) ( -500 980 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 1020 4 ) ( -500 1020 4 ) ( -500 1020 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 1020 0 ) ( 460 980 0 ) ( 500 980 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 1020 4 ) ( 500 980 4 ) ( 460 980 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 980 4 ) ( 460 980 0 ) ( 460 1020 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 1020 4 ) ( 500 1020 0 ) ( 500 980 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 980 0 ) ( 460 980 0 ) ( 460 980 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 1020 4 ) ( 460 1020 4 ) ( 460 1020 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 1220 0 ) ( -500 1180 0 ) ( -460 1180 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -460 1220 4 ) ( -460 1180 4 ) ( -500 1180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -500 1180 4 ) ( -500 1180 0 ) ( -500 1220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 1220 4 ) ( -460 1220 0 ) ( -460 1180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 1180 0 ) ( -500 1180 0 ) ( -500 1180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -460 1220 4 ) ( -500 1220 4 ) ( -500 1220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 460 1220 0 ) ( 460 1180 0 ) ( 500 1180 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 1220 4 ) ( 500 1180 4 ) ( 460 1180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 460 1180 4 ) ( 460 1180 0 ) ( 460 1220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 1220 4 ) ( 500 1220 0 ) ( 500 1180 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 1180 0 ) ( 460 1180 0 ) ( 460 1180 4 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 500 1220 4 ) ( 460 1220 4 ) ( 460 1220 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+
+// === APPROACH ZONE — enclosed tunnels with low ceiling ===
+{
+( -512 -1272 136 ) ( -512 -1408 136 ) ( 512 -1408 136 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 -1272 144 ) ( 512 -1408 144 ) ( -512 -1408 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1408 144 ) ( -512 -1408 136 ) ( -512 -1272 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -1272 144 ) ( 512 -1272 136 ) ( 512 -1408 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -1408 136 ) ( -512 -1408 136 ) ( -512 -1408 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -1272 144 ) ( -512 -1272 144 ) ( -512 -1272 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -516 -1272 0 ) ( -516 -1408 0 ) ( -512 -1408 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -1272 144 ) ( -512 -1408 144 ) ( -516 -1408 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -516 -1408 144 ) ( -516 -1408 0 ) ( -516 -1272 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -512 -1272 144 ) ( -512 -1272 0 ) ( -512 -1408 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -512 -1408 0 ) ( -516 -1408 0 ) ( -516 -1408 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -512 -1272 144 ) ( -516 -1272 144 ) ( -516 -1272 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -1272 0 ) ( 512 -1408 0 ) ( 516 -1408 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 -1272 144 ) ( 516 -1408 144 ) ( 512 -1408 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 -1408 144 ) ( 512 -1408 0 ) ( 512 -1272 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 516 -1272 144 ) ( 516 -1272 0 ) ( 516 -1408 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 516 -1408 0 ) ( 512 -1408 0 ) ( 512 -1408 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 516 -1272 144 ) ( 512 -1272 144 ) ( 512 -1272 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -508 -1280 80 ) ( -508 -1400 80 ) ( -504 -1400 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -504 -1280 88 ) ( -504 -1400 88 ) ( -508 -1400 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -508 -1400 88 ) ( -508 -1400 80 ) ( -508 -1280 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -504 -1280 88 ) ( -504 -1280 80 ) ( -504 -1400 80 ) urban_light/red_light_350 0 0 0 0.5 0.5 0 0 0
+( -504 -1400 80 ) ( -508 -1400 80 ) ( -508 -1400 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -504 -1280 88 ) ( -508 -1280 88 ) ( -508 -1280 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 504 -1280 80 ) ( 504 -1400 80 ) ( 508 -1400 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 508 -1280 88 ) ( 508 -1400 88 ) ( 504 -1400 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 504 -1400 88 ) ( 504 -1400 80 ) ( 504 -1280 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 508 -1280 88 ) ( 508 -1280 80 ) ( 508 -1400 80 ) urban_light/red_light_350 0 0 0 0.5 0.5 0 0 0
+( 508 -1400 80 ) ( 504 -1400 80 ) ( 504 -1400 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 508 -1280 88 ) ( 504 -1280 88 ) ( 504 -1280 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -512 1408 136 ) ( -512 1272 136 ) ( 512 1272 136 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 512 1408 144 ) ( 512 1272 144 ) ( -512 1272 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1272 144 ) ( -512 1272 136 ) ( -512 1408 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 1408 144 ) ( 512 1408 136 ) ( 512 1272 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 1272 136 ) ( -512 1272 136 ) ( -512 1272 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 1408 144 ) ( -512 1408 144 ) ( -512 1408 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -516 1408 0 ) ( -516 1272 0 ) ( -512 1272 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 1408 144 ) ( -512 1272 144 ) ( -516 1272 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -516 1272 144 ) ( -516 1272 0 ) ( -516 1408 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -512 1408 144 ) ( -512 1408 0 ) ( -512 1272 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -512 1272 0 ) ( -516 1272 0 ) ( -516 1272 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -512 1408 144 ) ( -516 1408 144 ) ( -516 1408 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 1408 0 ) ( 512 1272 0 ) ( 516 1272 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 1408 144 ) ( 516 1272 144 ) ( 512 1272 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 512 1272 144 ) ( 512 1272 0 ) ( 512 1408 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 516 1408 144 ) ( 516 1408 0 ) ( 516 1272 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 516 1272 0 ) ( 512 1272 0 ) ( 512 1272 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 516 1408 144 ) ( 512 1408 144 ) ( 512 1408 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -508 1400 80 ) ( -508 1280 80 ) ( -504 1280 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -504 1400 88 ) ( -504 1280 88 ) ( -508 1280 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -508 1280 88 ) ( -508 1280 80 ) ( -508 1400 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -504 1400 88 ) ( -504 1400 80 ) ( -504 1280 80 ) urban_light/blue_light_350 0 0 0 0.5 0.5 0 0 0
+( -504 1280 80 ) ( -508 1280 80 ) ( -508 1280 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -504 1400 88 ) ( -508 1400 88 ) ( -508 1400 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 504 1400 80 ) ( 504 1280 80 ) ( 508 1280 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 508 1400 88 ) ( 508 1280 88 ) ( 504 1280 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 504 1280 88 ) ( 504 1280 80 ) ( 504 1400 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 508 1400 88 ) ( 508 1400 80 ) ( 508 1280 80 ) urban_light/blue_light_350 0 0 0 0.5 0.5 0 0 0
+( 508 1280 80 ) ( 504 1280 80 ) ( 504 1280 88 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 508 1400 88 ) ( 504 1400 88 ) ( 504 1400 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// === FLANK ROOMS — 4 small rooms off walkways ===
+{
+( -1024 -600 136 ) ( -1024 -900 136 ) ( -768 -900 136 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -600 144 ) ( -768 -900 144 ) ( -1024 -900 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1024 -900 144 ) ( -1024 -900 136 ) ( -1024 -600 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -600 144 ) ( -768 -600 136 ) ( -768 -900 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -900 136 ) ( -1024 -900 136 ) ( -1024 -900 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 -600 144 ) ( -1024 -600 144 ) ( -1024 -600 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 -900 0 ) ( -1024 -904 0 ) ( -768 -904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -900 144 ) ( -768 -904 144 ) ( -1024 -904 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -1024 -904 144 ) ( -1024 -904 0 ) ( -1024 -900 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 -900 144 ) ( -768 -900 0 ) ( -768 -904 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 -904 0 ) ( -1024 -904 0 ) ( -1024 -904 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 -900 144 ) ( -1024 -900 144 ) ( -1024 -900 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 -596 0 ) ( -1024 -600 0 ) ( -768 -600 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -596 144 ) ( -768 -600 144 ) ( -1024 -600 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -1024 -600 144 ) ( -1024 -600 0 ) ( -1024 -596 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 -596 144 ) ( -768 -596 0 ) ( -768 -600 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 -600 0 ) ( -1024 -600 0 ) ( -1024 -600 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 -596 144 ) ( -1024 -596 144 ) ( -1024 -596 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -960 -828 0 ) ( -960 -860 0 ) ( -832 -860 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -832 -828 40 ) ( -832 -860 40 ) ( -960 -860 40 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -960 -860 40 ) ( -960 -860 0 ) ( -960 -828 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -832 -828 40 ) ( -832 -828 0 ) ( -832 -860 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -832 -860 0 ) ( -960 -860 0 ) ( -960 -860 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -832 -828 40 ) ( -960 -828 40 ) ( -960 -828 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -952 -836 40 ) ( -952 -852 40 ) ( -840 -852 40 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -840 -836 44 ) ( -840 -852 44 ) ( -952 -852 44 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -952 -852 44 ) ( -952 -852 40 ) ( -952 -836 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -840 -836 44 ) ( -840 -836 40 ) ( -840 -852 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -840 -852 40 ) ( -952 -852 40 ) ( -952 -852 44 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -840 -836 44 ) ( -952 -836 44 ) ( -952 -836 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 -620 80 ) ( -1016 -880 80 ) ( -1008 -880 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1008 -620 96 ) ( -1008 -880 96 ) ( -1016 -880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -880 96 ) ( -1016 -880 80 ) ( -1016 -620 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1008 -620 96 ) ( -1008 -620 80 ) ( -1008 -880 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1008 -880 80 ) ( -1016 -880 80 ) ( -1016 -880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1008 -620 96 ) ( -1016 -620 96 ) ( -1016 -620 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 -872 96 ) ( -1016 -880 96 ) ( -776 -880 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -776 -872 100 ) ( -776 -880 100 ) ( -1016 -880 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1016 -880 100 ) ( -1016 -880 96 ) ( -1016 -872 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -872 100 ) ( -776 -872 96 ) ( -776 -880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -880 96 ) ( -1016 -880 96 ) ( -1016 -880 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -872 100 ) ( -1016 -872 100 ) ( -1016 -872 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1020 -640 64 ) ( -1020 -860 64 ) ( -1016 -860 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -640 72 ) ( -1016 -860 72 ) ( -1020 -860 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 -860 72 ) ( -1020 -860 64 ) ( -1020 -640 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -640 72 ) ( -1016 -640 64 ) ( -1016 -860 64 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( -1016 -860 64 ) ( -1020 -860 64 ) ( -1020 -860 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -640 72 ) ( -1020 -640 72 ) ( -1020 -640 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 900 136 ) ( -1024 600 136 ) ( -768 600 136 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 900 144 ) ( -768 600 144 ) ( -1024 600 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1024 600 144 ) ( -1024 600 136 ) ( -1024 900 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 900 144 ) ( -768 900 136 ) ( -768 600 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 600 136 ) ( -1024 600 136 ) ( -1024 600 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( -768 900 144 ) ( -1024 900 144 ) ( -1024 900 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 600 0 ) ( -1024 596 0 ) ( -768 596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 600 144 ) ( -768 596 144 ) ( -1024 596 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -1024 596 144 ) ( -1024 596 0 ) ( -1024 600 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 600 144 ) ( -768 600 0 ) ( -768 596 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 596 0 ) ( -1024 596 0 ) ( -1024 596 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 600 144 ) ( -1024 600 144 ) ( -1024 600 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 904 0 ) ( -1024 900 0 ) ( -768 900 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 904 144 ) ( -768 900 144 ) ( -1024 900 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -1024 900 144 ) ( -1024 900 0 ) ( -1024 904 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 904 144 ) ( -768 904 0 ) ( -768 900 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 900 0 ) ( -1024 900 0 ) ( -1024 900 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -768 904 144 ) ( -1024 904 144 ) ( -1024 904 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -960 860 0 ) ( -960 828 0 ) ( -832 828 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -832 860 40 ) ( -832 828 40 ) ( -960 828 40 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -960 828 40 ) ( -960 828 0 ) ( -960 860 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -832 860 40 ) ( -832 860 0 ) ( -832 828 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -832 828 0 ) ( -960 828 0 ) ( -960 828 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -832 860 40 ) ( -960 860 40 ) ( -960 860 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -952 852 40 ) ( -952 836 40 ) ( -840 836 40 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -840 852 44 ) ( -840 836 44 ) ( -952 836 44 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -952 836 44 ) ( -952 836 40 ) ( -952 852 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -840 852 44 ) ( -840 852 40 ) ( -840 836 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -840 836 40 ) ( -952 836 40 ) ( -952 836 44 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -840 852 44 ) ( -952 852 44 ) ( -952 852 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 880 80 ) ( -1016 620 80 ) ( -1008 620 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1008 880 96 ) ( -1008 620 96 ) ( -1016 620 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 620 96 ) ( -1016 620 80 ) ( -1016 880 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1008 880 96 ) ( -1008 880 80 ) ( -1008 620 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1008 620 80 ) ( -1016 620 80 ) ( -1016 620 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1008 880 96 ) ( -1016 880 96 ) ( -1016 880 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 880 96 ) ( -1016 872 96 ) ( -776 872 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -776 880 100 ) ( -776 872 100 ) ( -1016 872 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1016 872 100 ) ( -1016 872 96 ) ( -1016 880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 880 100 ) ( -776 880 96 ) ( -776 872 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 872 96 ) ( -1016 872 96 ) ( -1016 872 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 880 100 ) ( -1016 880 100 ) ( -1016 880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1020 860 64 ) ( -1020 640 64 ) ( -1016 640 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 860 72 ) ( -1016 640 72 ) ( -1020 640 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1020 640 72 ) ( -1020 640 64 ) ( -1020 860 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 860 72 ) ( -1016 860 64 ) ( -1016 640 64 ) urban_light/green_light_200 0 0 0 0.5 0.5 0 0 0
+( -1016 640 64 ) ( -1020 640 64 ) ( -1020 640 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 860 72 ) ( -1020 860 72 ) ( -1020 860 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -600 136 ) ( 768 -900 136 ) ( 1024 -900 136 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 144 ) ( 1024 -900 144 ) ( 768 -900 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 768 -900 144 ) ( 768 -900 136 ) ( 768 -600 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 144 ) ( 1024 -600 136 ) ( 1024 -900 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 136 ) ( 768 -900 136 ) ( 768 -900 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 144 ) ( 768 -600 144 ) ( 768 -600 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -900 0 ) ( 768 -904 0 ) ( 1024 -904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 144 ) ( 1024 -904 144 ) ( 768 -904 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 768 -904 144 ) ( 768 -904 0 ) ( 768 -900 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 144 ) ( 1024 -900 0 ) ( 1024 -904 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 -904 0 ) ( 768 -904 0 ) ( 768 -904 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 144 ) ( 768 -900 144 ) ( 768 -900 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -596 0 ) ( 768 -600 0 ) ( 1024 -600 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -596 144 ) ( 1024 -600 144 ) ( 768 -600 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 768 -600 144 ) ( 768 -600 0 ) ( 768 -596 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 -596 144 ) ( 1024 -596 0 ) ( 1024 -600 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 0 ) ( 768 -600 0 ) ( 768 -600 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 -596 144 ) ( 768 -596 144 ) ( 768 -596 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 832 -828 0 ) ( 832 -860 0 ) ( 960 -860 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 960 -828 40 ) ( 960 -860 40 ) ( 832 -860 40 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 832 -860 40 ) ( 832 -860 0 ) ( 832 -828 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 960 -828 40 ) ( 960 -828 0 ) ( 960 -860 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 960 -860 0 ) ( 832 -860 0 ) ( 832 -860 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 960 -828 40 ) ( 832 -828 40 ) ( 832 -828 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 840 -836 40 ) ( 840 -852 40 ) ( 952 -852 40 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 952 -836 44 ) ( 952 -852 44 ) ( 840 -852 44 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 840 -852 44 ) ( 840 -852 40 ) ( 840 -836 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 952 -836 44 ) ( 952 -836 40 ) ( 952 -852 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 952 -852 40 ) ( 840 -852 40 ) ( 840 -852 44 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 952 -836 44 ) ( 840 -836 44 ) ( 840 -836 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1008 -620 80 ) ( 1008 -880 80 ) ( 1016 -880 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 -620 96 ) ( 1016 -880 96 ) ( 1008 -880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1008 -880 96 ) ( 1008 -880 80 ) ( 1008 -620 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -620 96 ) ( 1016 -620 80 ) ( 1016 -880 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -880 80 ) ( 1008 -880 80 ) ( 1008 -880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -620 96 ) ( 1008 -620 96 ) ( 1008 -620 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 776 -872 96 ) ( 776 -880 96 ) ( 1016 -880 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 -872 100 ) ( 1016 -880 100 ) ( 776 -880 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 776 -880 100 ) ( 776 -880 96 ) ( 776 -872 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -872 100 ) ( 1016 -872 96 ) ( 1016 -880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -880 96 ) ( 776 -880 96 ) ( 776 -880 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -872 100 ) ( 776 -872 100 ) ( 776 -872 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 -640 64 ) ( 1016 -860 64 ) ( 1020 -860 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 -640 72 ) ( 1020 -860 72 ) ( 1016 -860 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 -860 72 ) ( 1016 -860 64 ) ( 1016 -640 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 -640 72 ) ( 1020 -640 64 ) ( 1020 -860 64 ) urban_light/red_light_200 0 0 0 0.5 0.5 0 0 0
+( 1020 -860 64 ) ( 1016 -860 64 ) ( 1016 -860 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 -640 72 ) ( 1016 -640 72 ) ( 1016 -640 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 900 136 ) ( 768 600 136 ) ( 1024 600 136 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 900 144 ) ( 1024 600 144 ) ( 768 600 144 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 768 600 144 ) ( 768 600 136 ) ( 768 900 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 900 144 ) ( 1024 900 136 ) ( 1024 600 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 600 136 ) ( 768 600 136 ) ( 768 600 144 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+( 1024 900 144 ) ( 768 900 144 ) ( 768 900 136 ) evil4_d_techwalls/d_tech_drkwall_seam 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 600 0 ) ( 768 596 0 ) ( 1024 596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 600 144 ) ( 1024 596 144 ) ( 768 596 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 768 596 144 ) ( 768 596 0 ) ( 768 600 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 600 144 ) ( 1024 600 0 ) ( 1024 596 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 596 0 ) ( 768 596 0 ) ( 768 596 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 600 144 ) ( 768 600 144 ) ( 768 600 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 904 0 ) ( 768 900 0 ) ( 1024 900 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 904 144 ) ( 1024 900 144 ) ( 768 900 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 768 900 144 ) ( 768 900 0 ) ( 768 904 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 904 144 ) ( 1024 904 0 ) ( 1024 900 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 900 0 ) ( 768 900 0 ) ( 768 900 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 1024 904 144 ) ( 768 904 144 ) ( 768 904 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 832 860 0 ) ( 832 828 0 ) ( 960 828 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 960 860 40 ) ( 960 828 40 ) ( 832 828 40 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 832 828 40 ) ( 832 828 0 ) ( 832 860 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 960 860 40 ) ( 960 860 0 ) ( 960 828 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 960 828 0 ) ( 832 828 0 ) ( 832 828 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 960 860 40 ) ( 832 860 40 ) ( 832 860 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 840 852 40 ) ( 840 836 40 ) ( 952 836 40 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 952 852 44 ) ( 952 836 44 ) ( 840 836 44 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 840 836 44 ) ( 840 836 40 ) ( 840 852 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 952 852 44 ) ( 952 852 40 ) ( 952 836 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 952 836 40 ) ( 840 836 40 ) ( 840 836 44 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 952 852 44 ) ( 840 852 44 ) ( 840 852 40 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1008 880 80 ) ( 1008 620 80 ) ( 1016 620 80 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 880 96 ) ( 1016 620 96 ) ( 1008 620 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1008 620 96 ) ( 1008 620 80 ) ( 1008 880 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 880 96 ) ( 1016 880 80 ) ( 1016 620 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 620 80 ) ( 1008 620 80 ) ( 1008 620 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 880 96 ) ( 1008 880 96 ) ( 1008 880 80 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 776 880 96 ) ( 776 872 96 ) ( 1016 872 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 880 100 ) ( 1016 872 100 ) ( 776 872 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 776 872 100 ) ( 776 872 96 ) ( 776 880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 880 100 ) ( 1016 880 96 ) ( 1016 872 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 872 96 ) ( 776 872 96 ) ( 776 872 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 880 100 ) ( 776 880 100 ) ( 776 880 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 860 64 ) ( 1016 640 64 ) ( 1020 640 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 860 72 ) ( 1020 640 72 ) ( 1016 640 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 640 72 ) ( 1016 640 64 ) ( 1016 860 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 860 72 ) ( 1020 860 64 ) ( 1020 640 64 ) urban_light/red_light_200 0 0 0 0.5 0.5 0 0 0
+( 1020 640 64 ) ( 1016 640 64 ) ( 1016 640 72 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1020 860 72 ) ( 1016 860 72 ) ( 1016 860 64 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// === DENSE COVER — L-shaped barriers ===
+{
+( -440 -1018 0 ) ( -440 -1082 0 ) ( -400 -1082 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 -1018 80 ) ( -400 -1082 80 ) ( -440 -1082 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 -1082 80 ) ( -440 -1082 0 ) ( -440 -1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -1018 80 ) ( -400 -1018 0 ) ( -400 -1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -1082 0 ) ( -440 -1082 0 ) ( -440 -1082 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -1018 80 ) ( -440 -1018 80 ) ( -440 -1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 -1066 0 ) ( -440 -1082 0 ) ( -360 -1082 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -360 -1066 48 ) ( -360 -1082 48 ) ( -440 -1082 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 -1082 48 ) ( -440 -1082 0 ) ( -440 -1066 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -1066 48 ) ( -360 -1066 0 ) ( -360 -1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -1082 0 ) ( -440 -1082 0 ) ( -440 -1082 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -1066 48 ) ( -440 -1066 48 ) ( -440 -1066 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 -1018 0 ) ( 400 -1082 0 ) ( 440 -1082 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 -1018 80 ) ( 440 -1082 80 ) ( 400 -1082 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 -1082 80 ) ( 400 -1082 0 ) ( 400 -1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -1018 80 ) ( 440 -1018 0 ) ( 440 -1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -1082 0 ) ( 400 -1082 0 ) ( 400 -1082 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -1018 80 ) ( 400 -1018 80 ) ( 400 -1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 360 -1018 0 ) ( 360 -1034 0 ) ( 440 -1034 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 -1018 48 ) ( 440 -1034 48 ) ( 360 -1034 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 360 -1034 48 ) ( 360 -1034 0 ) ( 360 -1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -1018 48 ) ( 440 -1018 0 ) ( 440 -1034 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -1034 0 ) ( 360 -1034 0 ) ( 360 -1034 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -1018 48 ) ( 360 -1018 48 ) ( 360 -1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 -718 0 ) ( -440 -782 0 ) ( -400 -782 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 -718 80 ) ( -400 -782 80 ) ( -440 -782 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 -782 80 ) ( -440 -782 0 ) ( -440 -718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -718 80 ) ( -400 -718 0 ) ( -400 -782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -782 0 ) ( -440 -782 0 ) ( -440 -782 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -718 80 ) ( -440 -718 80 ) ( -440 -718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 -766 0 ) ( -440 -782 0 ) ( -360 -782 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -360 -766 48 ) ( -360 -782 48 ) ( -440 -782 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 -782 48 ) ( -440 -782 0 ) ( -440 -766 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -766 48 ) ( -360 -766 0 ) ( -360 -782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -782 0 ) ( -440 -782 0 ) ( -440 -782 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -766 48 ) ( -440 -766 48 ) ( -440 -766 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 -718 0 ) ( 400 -782 0 ) ( 440 -782 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 -718 80 ) ( 440 -782 80 ) ( 400 -782 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 -782 80 ) ( 400 -782 0 ) ( 400 -718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -718 80 ) ( 440 -718 0 ) ( 440 -782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -782 0 ) ( 400 -782 0 ) ( 400 -782 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -718 80 ) ( 400 -718 80 ) ( 400 -718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 360 -718 0 ) ( 360 -734 0 ) ( 440 -734 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 -718 48 ) ( 440 -734 48 ) ( 360 -734 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 360 -734 48 ) ( 360 -734 0 ) ( 360 -718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -718 48 ) ( 440 -718 0 ) ( 440 -734 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -734 0 ) ( 360 -734 0 ) ( 360 -734 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -718 48 ) ( 360 -718 48 ) ( 360 -718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 -418 0 ) ( -440 -482 0 ) ( -400 -482 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 -418 80 ) ( -400 -482 80 ) ( -440 -482 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 -482 80 ) ( -440 -482 0 ) ( -440 -418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -418 80 ) ( -400 -418 0 ) ( -400 -482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -482 0 ) ( -440 -482 0 ) ( -440 -482 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 -418 80 ) ( -440 -418 80 ) ( -440 -418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 -466 0 ) ( -440 -482 0 ) ( -360 -482 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -360 -466 48 ) ( -360 -482 48 ) ( -440 -482 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 -482 48 ) ( -440 -482 0 ) ( -440 -466 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -466 48 ) ( -360 -466 0 ) ( -360 -482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -482 0 ) ( -440 -482 0 ) ( -440 -482 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 -466 48 ) ( -440 -466 48 ) ( -440 -466 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 -418 0 ) ( 400 -482 0 ) ( 440 -482 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 -418 80 ) ( 440 -482 80 ) ( 400 -482 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 -482 80 ) ( 400 -482 0 ) ( 400 -418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -418 80 ) ( 440 -418 0 ) ( 440 -482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -482 0 ) ( 400 -482 0 ) ( 400 -482 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -418 80 ) ( 400 -418 80 ) ( 400 -418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 360 -418 0 ) ( 360 -434 0 ) ( 440 -434 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 -418 48 ) ( 440 -434 48 ) ( 360 -434 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 360 -434 48 ) ( 360 -434 0 ) ( 360 -418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -418 48 ) ( 440 -418 0 ) ( 440 -434 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -434 0 ) ( 360 -434 0 ) ( 360 -434 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 -418 48 ) ( 360 -418 48 ) ( 360 -418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 482 0 ) ( -440 418 0 ) ( -400 418 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 482 80 ) ( -400 418 80 ) ( -440 418 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 418 80 ) ( -440 418 0 ) ( -440 482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 482 80 ) ( -400 482 0 ) ( -400 418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 418 0 ) ( -440 418 0 ) ( -440 418 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 482 80 ) ( -440 482 80 ) ( -440 482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 434 0 ) ( -440 418 0 ) ( -360 418 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -360 434 48 ) ( -360 418 48 ) ( -440 418 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 418 48 ) ( -440 418 0 ) ( -440 434 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 434 48 ) ( -360 434 0 ) ( -360 418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 418 0 ) ( -440 418 0 ) ( -440 418 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 434 48 ) ( -440 434 48 ) ( -440 434 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 482 0 ) ( 400 418 0 ) ( 440 418 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 482 80 ) ( 440 418 80 ) ( 400 418 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 418 80 ) ( 400 418 0 ) ( 400 482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 482 80 ) ( 440 482 0 ) ( 440 418 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 418 0 ) ( 400 418 0 ) ( 400 418 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 482 80 ) ( 400 482 80 ) ( 400 482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 360 482 0 ) ( 360 466 0 ) ( 440 466 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 482 48 ) ( 440 466 48 ) ( 360 466 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 360 466 48 ) ( 360 466 0 ) ( 360 482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 482 48 ) ( 440 482 0 ) ( 440 466 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 466 0 ) ( 360 466 0 ) ( 360 466 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 482 48 ) ( 360 482 48 ) ( 360 482 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 782 0 ) ( -440 718 0 ) ( -400 718 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 782 80 ) ( -400 718 80 ) ( -440 718 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 718 80 ) ( -440 718 0 ) ( -440 782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 782 80 ) ( -400 782 0 ) ( -400 718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 718 0 ) ( -440 718 0 ) ( -440 718 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 782 80 ) ( -440 782 80 ) ( -440 782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 734 0 ) ( -440 718 0 ) ( -360 718 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -360 734 48 ) ( -360 718 48 ) ( -440 718 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 718 48 ) ( -440 718 0 ) ( -440 734 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 734 48 ) ( -360 734 0 ) ( -360 718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 718 0 ) ( -440 718 0 ) ( -440 718 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 734 48 ) ( -440 734 48 ) ( -440 734 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 782 0 ) ( 400 718 0 ) ( 440 718 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 782 80 ) ( 440 718 80 ) ( 400 718 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 718 80 ) ( 400 718 0 ) ( 400 782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 782 80 ) ( 440 782 0 ) ( 440 718 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 718 0 ) ( 400 718 0 ) ( 400 718 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 782 80 ) ( 400 782 80 ) ( 400 782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 360 782 0 ) ( 360 766 0 ) ( 440 766 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 782 48 ) ( 440 766 48 ) ( 360 766 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 360 766 48 ) ( 360 766 0 ) ( 360 782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 782 48 ) ( 440 782 0 ) ( 440 766 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 766 0 ) ( 360 766 0 ) ( 360 766 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 782 48 ) ( 360 782 48 ) ( 360 782 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 1082 0 ) ( -440 1018 0 ) ( -400 1018 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 1082 80 ) ( -400 1018 80 ) ( -440 1018 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 1018 80 ) ( -440 1018 0 ) ( -440 1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 1082 80 ) ( -400 1082 0 ) ( -400 1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 1018 0 ) ( -440 1018 0 ) ( -440 1018 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -400 1082 80 ) ( -440 1082 80 ) ( -440 1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -440 1034 0 ) ( -440 1018 0 ) ( -360 1018 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -360 1034 48 ) ( -360 1018 48 ) ( -440 1018 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -440 1018 48 ) ( -440 1018 0 ) ( -440 1034 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 1034 48 ) ( -360 1034 0 ) ( -360 1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 1018 0 ) ( -440 1018 0 ) ( -440 1018 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -360 1034 48 ) ( -440 1034 48 ) ( -440 1034 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 1082 0 ) ( 400 1018 0 ) ( 440 1018 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 1082 80 ) ( 440 1018 80 ) ( 400 1018 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 1018 80 ) ( 400 1018 0 ) ( 400 1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 1082 80 ) ( 440 1082 0 ) ( 440 1018 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 1018 0 ) ( 400 1018 0 ) ( 400 1018 80 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 1082 80 ) ( 400 1082 80 ) ( 400 1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 360 1082 0 ) ( 360 1066 0 ) ( 440 1066 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 440 1082 48 ) ( 440 1066 48 ) ( 360 1066 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 360 1066 48 ) ( 360 1066 0 ) ( 360 1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 1082 48 ) ( 440 1082 0 ) ( 440 1066 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 1066 0 ) ( 360 1066 0 ) ( 360 1066 48 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 440 1082 48 ) ( 360 1082 48 ) ( 360 1082 0 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+
+// === STACKED CRATES in bases ===
+{
+( -600 -1886 96 ) ( -600 -1950 96 ) ( -536 -1950 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -536 -1886 152 ) ( -536 -1950 152 ) ( -600 -1950 152 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -600 -1950 152 ) ( -600 -1950 96 ) ( -600 -1886 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -536 -1886 152 ) ( -536 -1886 96 ) ( -536 -1950 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -536 -1950 96 ) ( -600 -1950 96 ) ( -600 -1950 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -536 -1886 152 ) ( -600 -1886 152 ) ( -600 -1886 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -584 -1896 152 ) ( -584 -1940 152 ) ( -552 -1940 152 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -552 -1896 184 ) ( -552 -1940 184 ) ( -584 -1940 184 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -584 -1940 184 ) ( -584 -1940 152 ) ( -584 -1896 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -552 -1896 184 ) ( -552 -1896 152 ) ( -552 -1940 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -552 -1940 152 ) ( -584 -1940 152 ) ( -584 -1940 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -552 -1896 184 ) ( -584 -1896 184 ) ( -584 -1896 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -400 -1916 96 ) ( -400 -1980 96 ) ( -336 -1980 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -336 -1916 144 ) ( -336 -1980 144 ) ( -400 -1980 144 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -400 -1980 144 ) ( -400 -1980 96 ) ( -400 -1916 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -336 -1916 144 ) ( -336 -1916 96 ) ( -336 -1980 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -336 -1980 96 ) ( -400 -1980 96 ) ( -400 -1980 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -336 -1916 144 ) ( -400 -1916 144 ) ( -400 -1916 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 336 -1916 96 ) ( 336 -1980 96 ) ( 400 -1980 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 400 -1916 144 ) ( 400 -1980 144 ) ( 336 -1980 144 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 336 -1980 144 ) ( 336 -1980 96 ) ( 336 -1916 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 -1916 144 ) ( 400 -1916 96 ) ( 400 -1980 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 -1980 96 ) ( 336 -1980 96 ) ( 336 -1980 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 -1916 144 ) ( 336 -1916 144 ) ( 336 -1916 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 536 -1886 96 ) ( 536 -1950 96 ) ( 600 -1950 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 600 -1886 152 ) ( 600 -1950 152 ) ( 536 -1950 152 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 536 -1950 152 ) ( 536 -1950 96 ) ( 536 -1886 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 600 -1886 152 ) ( 600 -1886 96 ) ( 600 -1950 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 600 -1950 96 ) ( 536 -1950 96 ) ( 536 -1950 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 600 -1886 152 ) ( 536 -1886 152 ) ( 536 -1886 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 552 -1896 152 ) ( 552 -1940 152 ) ( 584 -1940 152 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 584 -1896 176 ) ( 584 -1940 176 ) ( 552 -1940 176 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 552 -1940 176 ) ( 552 -1940 152 ) ( 552 -1896 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 584 -1896 176 ) ( 584 -1896 152 ) ( 584 -1940 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 584 -1940 152 ) ( 552 -1940 152 ) ( 552 -1940 176 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 584 -1896 176 ) ( 552 -1896 176 ) ( 552 -1896 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -600 1950 96 ) ( -600 1886 96 ) ( -536 1886 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -536 1950 152 ) ( -536 1886 152 ) ( -600 1886 152 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -600 1886 152 ) ( -600 1886 96 ) ( -600 1950 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -536 1950 152 ) ( -536 1950 96 ) ( -536 1886 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -536 1886 96 ) ( -600 1886 96 ) ( -600 1886 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -536 1950 152 ) ( -600 1950 152 ) ( -600 1950 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -584 1940 152 ) ( -584 1896 152 ) ( -552 1896 152 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -552 1940 184 ) ( -552 1896 184 ) ( -584 1896 184 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -584 1896 184 ) ( -584 1896 152 ) ( -584 1940 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -552 1940 184 ) ( -552 1940 152 ) ( -552 1896 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -552 1896 152 ) ( -584 1896 152 ) ( -584 1896 184 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -552 1940 184 ) ( -584 1940 184 ) ( -584 1940 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -400 1980 96 ) ( -400 1916 96 ) ( -336 1916 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -336 1980 144 ) ( -336 1916 144 ) ( -400 1916 144 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( -400 1916 144 ) ( -400 1916 96 ) ( -400 1980 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -336 1980 144 ) ( -336 1980 96 ) ( -336 1916 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -336 1916 96 ) ( -400 1916 96 ) ( -400 1916 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( -336 1980 144 ) ( -400 1980 144 ) ( -400 1980 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 336 1980 96 ) ( 336 1916 96 ) ( 400 1916 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 400 1980 144 ) ( 400 1916 144 ) ( 336 1916 144 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 336 1916 144 ) ( 336 1916 96 ) ( 336 1980 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 1980 144 ) ( 400 1980 96 ) ( 400 1916 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 1916 96 ) ( 336 1916 96 ) ( 336 1916 144 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 400 1980 144 ) ( 336 1980 144 ) ( 336 1980 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 536 1950 96 ) ( 536 1886 96 ) ( 600 1886 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 600 1950 152 ) ( 600 1886 152 ) ( 536 1886 152 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 536 1886 152 ) ( 536 1886 96 ) ( 536 1950 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 600 1950 152 ) ( 600 1950 96 ) ( 600 1886 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 600 1886 96 ) ( 536 1886 96 ) ( 536 1886 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 600 1950 152 ) ( 536 1950 152 ) ( 536 1950 96 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 552 1940 152 ) ( 552 1896 152 ) ( 584 1896 152 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 584 1940 176 ) ( 584 1896 176 ) ( 552 1896 176 ) tech1soc_wall/grill_wall03a 0 0 0 0.5 0.5 0 0 0
+( 552 1896 176 ) ( 552 1896 152 ) ( 552 1940 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 584 1940 176 ) ( 584 1940 152 ) ( 584 1896 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 584 1896 152 ) ( 552 1896 152 ) ( 552 1896 176 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+( 584 1940 176 ) ( 552 1940 176 ) ( 552 1940 152 ) evil4_d_techwalls/d_tech_drkwall 0 0 0 0.5 0.5 0 0 0
+}
+
+// === COMPUTER STATIONS in bases ===
+{
+( -650 -2000 96 ) ( -650 -2032 96 ) ( -550 -2032 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -550 -2000 112 ) ( -550 -2032 112 ) ( -650 -2032 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -650 -2032 112 ) ( -650 -2032 96 ) ( -650 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -550 -2000 112 ) ( -550 -2000 96 ) ( -550 -2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -550 -2032 96 ) ( -650 -2032 96 ) ( -650 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -550 -2000 112 ) ( -650 -2000 112 ) ( -650 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -650 -2000 112 ) ( -650 -2032 112 ) ( -642 -2032 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -642 -2000 136 ) ( -642 -2032 136 ) ( -650 -2032 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -650 -2032 136 ) ( -650 -2032 112 ) ( -650 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -642 -2000 136 ) ( -642 -2000 112 ) ( -642 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -642 -2032 112 ) ( -650 -2032 112 ) ( -650 -2032 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -642 -2000 136 ) ( -650 -2000 136 ) ( -650 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -2000 96 ) ( -500 -2032 96 ) ( -400 -2032 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 -2000 112 ) ( -400 -2032 112 ) ( -500 -2032 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -500 -2032 112 ) ( -500 -2032 96 ) ( -500 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -400 -2000 112 ) ( -400 -2000 96 ) ( -400 -2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -400 -2032 96 ) ( -500 -2032 96 ) ( -500 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -400 -2000 112 ) ( -500 -2000 112 ) ( -500 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 -2000 112 ) ( -500 -2032 112 ) ( -492 -2032 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -492 -2000 136 ) ( -492 -2032 136 ) ( -500 -2032 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -500 -2032 136 ) ( -500 -2032 112 ) ( -500 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -492 -2000 136 ) ( -492 -2000 112 ) ( -492 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -492 -2032 112 ) ( -500 -2032 112 ) ( -500 -2032 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -492 -2000 136 ) ( -500 -2000 136 ) ( -500 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 -2000 96 ) ( 400 -2032 96 ) ( 500 -2032 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 -2000 112 ) ( 500 -2032 112 ) ( 400 -2032 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 400 -2032 112 ) ( 400 -2032 96 ) ( 400 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 500 -2000 112 ) ( 500 -2000 96 ) ( 500 -2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 500 -2032 96 ) ( 400 -2032 96 ) ( 400 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 500 -2000 112 ) ( 400 -2000 112 ) ( 400 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 -2000 112 ) ( 400 -2032 112 ) ( 408 -2032 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 408 -2000 136 ) ( 408 -2032 136 ) ( 400 -2032 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 400 -2032 136 ) ( 400 -2032 112 ) ( 400 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 408 -2000 136 ) ( 408 -2000 112 ) ( 408 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 408 -2032 112 ) ( 400 -2032 112 ) ( 400 -2032 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 408 -2000 136 ) ( 400 -2000 136 ) ( 400 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 550 -2000 96 ) ( 550 -2032 96 ) ( 650 -2032 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 650 -2000 112 ) ( 650 -2032 112 ) ( 550 -2032 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 550 -2032 112 ) ( 550 -2032 96 ) ( 550 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 650 -2000 112 ) ( 650 -2000 96 ) ( 650 -2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 650 -2032 96 ) ( 550 -2032 96 ) ( 550 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 650 -2000 112 ) ( 550 -2000 112 ) ( 550 -2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 550 -2000 112 ) ( 550 -2032 112 ) ( 558 -2032 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 558 -2000 136 ) ( 558 -2032 136 ) ( 550 -2032 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 550 -2032 136 ) ( 550 -2032 112 ) ( 550 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 558 -2000 136 ) ( 558 -2000 112 ) ( 558 -2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 558 -2032 112 ) ( 550 -2032 112 ) ( 550 -2032 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 558 -2000 136 ) ( 550 -2000 136 ) ( 550 -2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -650 2032 96 ) ( -650 2000 96 ) ( -550 2000 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -550 2032 112 ) ( -550 2000 112 ) ( -650 2000 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -650 2000 112 ) ( -650 2000 96 ) ( -650 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -550 2032 112 ) ( -550 2032 96 ) ( -550 2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -550 2000 96 ) ( -650 2000 96 ) ( -650 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -550 2032 112 ) ( -650 2032 112 ) ( -650 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -650 2032 112 ) ( -650 2000 112 ) ( -642 2000 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -642 2032 136 ) ( -642 2000 136 ) ( -650 2000 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -650 2000 136 ) ( -650 2000 112 ) ( -650 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -642 2032 136 ) ( -642 2032 112 ) ( -642 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -642 2000 112 ) ( -650 2000 112 ) ( -650 2000 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -642 2032 136 ) ( -650 2032 136 ) ( -650 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 2032 96 ) ( -500 2000 96 ) ( -400 2000 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -400 2032 112 ) ( -400 2000 112 ) ( -500 2000 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -500 2000 112 ) ( -500 2000 96 ) ( -500 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -400 2032 112 ) ( -400 2032 96 ) ( -400 2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -400 2000 96 ) ( -500 2000 96 ) ( -500 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -400 2032 112 ) ( -500 2032 112 ) ( -500 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -500 2032 112 ) ( -500 2000 112 ) ( -492 2000 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -492 2032 136 ) ( -492 2000 136 ) ( -500 2000 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( -500 2000 136 ) ( -500 2000 112 ) ( -500 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -492 2032 136 ) ( -492 2032 112 ) ( -492 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -492 2000 112 ) ( -500 2000 112 ) ( -500 2000 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -492 2032 136 ) ( -500 2032 136 ) ( -500 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 2032 96 ) ( 400 2000 96 ) ( 500 2000 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 500 2032 112 ) ( 500 2000 112 ) ( 400 2000 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 400 2000 112 ) ( 400 2000 96 ) ( 400 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 500 2032 112 ) ( 500 2032 96 ) ( 500 2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 500 2000 96 ) ( 400 2000 96 ) ( 400 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 500 2032 112 ) ( 400 2032 112 ) ( 400 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 400 2032 112 ) ( 400 2000 112 ) ( 408 2000 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 408 2032 136 ) ( 408 2000 136 ) ( 400 2000 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 400 2000 136 ) ( 400 2000 112 ) ( 400 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 408 2032 136 ) ( 408 2032 112 ) ( 408 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 408 2000 112 ) ( 400 2000 112 ) ( 400 2000 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 408 2032 136 ) ( 400 2032 136 ) ( 400 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 550 2032 96 ) ( 550 2000 96 ) ( 650 2000 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 650 2032 112 ) ( 650 2000 112 ) ( 550 2000 112 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 550 2000 112 ) ( 550 2000 96 ) ( 550 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 650 2032 112 ) ( 650 2032 96 ) ( 650 2000 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 650 2000 96 ) ( 550 2000 96 ) ( 550 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 650 2032 112 ) ( 550 2032 112 ) ( 550 2032 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 550 2032 112 ) ( 550 2000 112 ) ( 558 2000 112 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 558 2032 136 ) ( 558 2000 136 ) ( 550 2000 136 ) pk02/pk02_computer01a_C 0 0 0 0.5 0.5 0 0 0
+( 550 2000 136 ) ( 550 2000 112 ) ( 550 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 558 2032 136 ) ( 558 2032 112 ) ( 558 2000 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 558 2000 112 ) ( 550 2000 112 ) ( 550 2000 136 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 558 2032 136 ) ( 550 2032 136 ) ( 550 2032 112 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+
+// === OUTER ROOM FURNITURE ===
+{
+( -1480 -1068 0 ) ( -1480 -1132 0 ) ( -1500 -1132 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 96 ) ( -1500 -1132 96 ) ( -1480 -1132 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1480 -1132 96 ) ( -1480 -1132 0 ) ( -1480 -1068 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 96 ) ( -1500 -1068 0 ) ( -1500 -1132 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1132 0 ) ( -1480 -1132 0 ) ( -1480 -1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 96 ) ( -1480 -1068 96 ) ( -1480 -1068 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 -1068 96 ) ( -1480 -1132 96 ) ( -1500 -1132 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 100 ) ( -1500 -1132 100 ) ( -1480 -1132 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 -1132 100 ) ( -1480 -1132 96 ) ( -1480 -1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 100 ) ( -1500 -1068 96 ) ( -1500 -1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1132 96 ) ( -1480 -1132 96 ) ( -1480 -1132 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 100 ) ( -1480 -1068 100 ) ( -1480 -1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 -1068 48 ) ( -1480 -1132 48 ) ( -1500 -1132 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 52 ) ( -1500 -1132 52 ) ( -1480 -1132 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 -1132 52 ) ( -1480 -1132 48 ) ( -1480 -1068 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 52 ) ( -1500 -1068 48 ) ( -1500 -1132 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1132 48 ) ( -1480 -1132 48 ) ( -1480 -1132 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -1068 52 ) ( -1480 -1068 52 ) ( -1480 -1068 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 -768 0 ) ( -1480 -832 0 ) ( -1500 -832 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 96 ) ( -1500 -832 96 ) ( -1480 -832 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1480 -832 96 ) ( -1480 -832 0 ) ( -1480 -768 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 96 ) ( -1500 -768 0 ) ( -1500 -832 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -832 0 ) ( -1480 -832 0 ) ( -1480 -832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 96 ) ( -1480 -768 96 ) ( -1480 -768 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 -768 96 ) ( -1480 -832 96 ) ( -1500 -832 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 100 ) ( -1500 -832 100 ) ( -1480 -832 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 -832 100 ) ( -1480 -832 96 ) ( -1480 -768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 100 ) ( -1500 -768 96 ) ( -1500 -832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -832 96 ) ( -1480 -832 96 ) ( -1480 -832 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 100 ) ( -1480 -768 100 ) ( -1480 -768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 -768 48 ) ( -1480 -832 48 ) ( -1500 -832 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 52 ) ( -1500 -832 52 ) ( -1480 -832 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 -832 52 ) ( -1480 -832 48 ) ( -1480 -768 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 52 ) ( -1500 -768 48 ) ( -1500 -832 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -832 48 ) ( -1480 -832 48 ) ( -1480 -832 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 -768 52 ) ( -1480 -768 52 ) ( -1480 -768 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 832 0 ) ( -1480 768 0 ) ( -1500 768 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 832 96 ) ( -1500 768 96 ) ( -1480 768 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1480 768 96 ) ( -1480 768 0 ) ( -1480 832 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 832 96 ) ( -1500 832 0 ) ( -1500 768 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 768 0 ) ( -1480 768 0 ) ( -1480 768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 832 96 ) ( -1480 832 96 ) ( -1480 832 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 832 96 ) ( -1480 768 96 ) ( -1500 768 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 832 100 ) ( -1500 768 100 ) ( -1480 768 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 768 100 ) ( -1480 768 96 ) ( -1480 832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 832 100 ) ( -1500 832 96 ) ( -1500 768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 768 96 ) ( -1480 768 96 ) ( -1480 768 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 832 100 ) ( -1480 832 100 ) ( -1480 832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 832 48 ) ( -1480 768 48 ) ( -1500 768 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 832 52 ) ( -1500 768 52 ) ( -1480 768 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 768 52 ) ( -1480 768 48 ) ( -1480 832 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 832 52 ) ( -1500 832 48 ) ( -1500 768 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 768 48 ) ( -1480 768 48 ) ( -1480 768 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 832 52 ) ( -1480 832 52 ) ( -1480 832 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 1132 0 ) ( -1480 1068 0 ) ( -1500 1068 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 96 ) ( -1500 1068 96 ) ( -1480 1068 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -1480 1068 96 ) ( -1480 1068 0 ) ( -1480 1132 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 96 ) ( -1500 1132 0 ) ( -1500 1068 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1068 0 ) ( -1480 1068 0 ) ( -1480 1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 96 ) ( -1480 1132 96 ) ( -1480 1132 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 1132 96 ) ( -1480 1068 96 ) ( -1500 1068 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 100 ) ( -1500 1068 100 ) ( -1480 1068 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 1068 100 ) ( -1480 1068 96 ) ( -1480 1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 100 ) ( -1500 1132 96 ) ( -1500 1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1068 96 ) ( -1480 1068 96 ) ( -1480 1068 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 100 ) ( -1480 1132 100 ) ( -1480 1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1480 1132 48 ) ( -1480 1068 48 ) ( -1500 1068 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 52 ) ( -1500 1068 52 ) ( -1480 1068 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( -1480 1068 52 ) ( -1480 1068 48 ) ( -1480 1132 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 52 ) ( -1500 1132 48 ) ( -1500 1068 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1068 48 ) ( -1480 1068 48 ) ( -1480 1068 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1500 1132 52 ) ( -1480 1132 52 ) ( -1480 1132 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 -1068 0 ) ( 1480 -1132 0 ) ( 1500 -1132 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 96 ) ( 1500 -1132 96 ) ( 1480 -1132 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 1480 -1132 96 ) ( 1480 -1132 0 ) ( 1480 -1068 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 96 ) ( 1500 -1068 0 ) ( 1500 -1132 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1132 0 ) ( 1480 -1132 0 ) ( 1480 -1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 96 ) ( 1480 -1068 96 ) ( 1480 -1068 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 -1068 96 ) ( 1480 -1132 96 ) ( 1500 -1132 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 100 ) ( 1500 -1132 100 ) ( 1480 -1132 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 -1132 100 ) ( 1480 -1132 96 ) ( 1480 -1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 100 ) ( 1500 -1068 96 ) ( 1500 -1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1132 96 ) ( 1480 -1132 96 ) ( 1480 -1132 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 100 ) ( 1480 -1068 100 ) ( 1480 -1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 -1068 48 ) ( 1480 -1132 48 ) ( 1500 -1132 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 52 ) ( 1500 -1132 52 ) ( 1480 -1132 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 -1132 52 ) ( 1480 -1132 48 ) ( 1480 -1068 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 52 ) ( 1500 -1068 48 ) ( 1500 -1132 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1132 48 ) ( 1480 -1132 48 ) ( 1480 -1132 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -1068 52 ) ( 1480 -1068 52 ) ( 1480 -1068 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 -768 0 ) ( 1480 -832 0 ) ( 1500 -832 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 96 ) ( 1500 -832 96 ) ( 1480 -832 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 1480 -832 96 ) ( 1480 -832 0 ) ( 1480 -768 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 96 ) ( 1500 -768 0 ) ( 1500 -832 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -832 0 ) ( 1480 -832 0 ) ( 1480 -832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 96 ) ( 1480 -768 96 ) ( 1480 -768 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 -768 96 ) ( 1480 -832 96 ) ( 1500 -832 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 100 ) ( 1500 -832 100 ) ( 1480 -832 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 -832 100 ) ( 1480 -832 96 ) ( 1480 -768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 100 ) ( 1500 -768 96 ) ( 1500 -832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -832 96 ) ( 1480 -832 96 ) ( 1480 -832 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 100 ) ( 1480 -768 100 ) ( 1480 -768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 -768 48 ) ( 1480 -832 48 ) ( 1500 -832 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 52 ) ( 1500 -832 52 ) ( 1480 -832 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 -832 52 ) ( 1480 -832 48 ) ( 1480 -768 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 52 ) ( 1500 -768 48 ) ( 1500 -832 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -832 48 ) ( 1480 -832 48 ) ( 1480 -832 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 -768 52 ) ( 1480 -768 52 ) ( 1480 -768 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 832 0 ) ( 1480 768 0 ) ( 1500 768 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 832 96 ) ( 1500 768 96 ) ( 1480 768 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 1480 768 96 ) ( 1480 768 0 ) ( 1480 832 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 832 96 ) ( 1500 832 0 ) ( 1500 768 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 768 0 ) ( 1480 768 0 ) ( 1480 768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 832 96 ) ( 1480 832 96 ) ( 1480 832 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 832 96 ) ( 1480 768 96 ) ( 1500 768 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 832 100 ) ( 1500 768 100 ) ( 1480 768 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 768 100 ) ( 1480 768 96 ) ( 1480 832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 832 100 ) ( 1500 832 96 ) ( 1500 768 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 768 96 ) ( 1480 768 96 ) ( 1480 768 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 832 100 ) ( 1480 832 100 ) ( 1480 832 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 832 48 ) ( 1480 768 48 ) ( 1500 768 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 832 52 ) ( 1500 768 52 ) ( 1480 768 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 768 52 ) ( 1480 768 48 ) ( 1480 832 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 832 52 ) ( 1500 832 48 ) ( 1500 768 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 768 48 ) ( 1480 768 48 ) ( 1480 768 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 832 52 ) ( 1480 832 52 ) ( 1480 832 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 1132 0 ) ( 1480 1068 0 ) ( 1500 1068 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 96 ) ( 1500 1068 96 ) ( 1480 1068 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 1480 1068 96 ) ( 1480 1068 0 ) ( 1480 1132 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 96 ) ( 1500 1132 0 ) ( 1500 1068 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1068 0 ) ( 1480 1068 0 ) ( 1480 1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 96 ) ( 1480 1132 96 ) ( 1480 1132 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 1132 96 ) ( 1480 1068 96 ) ( 1500 1068 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 100 ) ( 1500 1068 100 ) ( 1480 1068 100 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 1068 100 ) ( 1480 1068 96 ) ( 1480 1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 100 ) ( 1500 1132 96 ) ( 1500 1068 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1068 96 ) ( 1480 1068 96 ) ( 1480 1068 100 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 100 ) ( 1480 1132 100 ) ( 1480 1132 96 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1480 1132 48 ) ( 1480 1068 48 ) ( 1500 1068 48 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 52 ) ( 1500 1068 52 ) ( 1480 1068 52 ) tech1soc_floor/block01a 0 0 0 0.5 0.5 0 0 0
+( 1480 1068 52 ) ( 1480 1068 48 ) ( 1480 1132 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 52 ) ( 1500 1132 48 ) ( 1500 1068 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1068 48 ) ( 1480 1068 48 ) ( 1480 1068 52 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1500 1132 52 ) ( 1480 1132 52 ) ( 1480 1132 48 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+
+// === UPPER LEVEL RAILINGS (building + catwalks) ===
+{
+( -292 -128 128 ) ( -292 -132 128 ) ( -288 -132 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 -128 168 ) ( -288 -132 168 ) ( -292 -132 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -292 -132 168 ) ( -292 -132 128 ) ( -292 -128 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -288 -128 168 ) ( -288 -128 128 ) ( -288 -132 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -288 -132 128 ) ( -292 -132 128 ) ( -292 -132 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -288 -128 168 ) ( -292 -128 168 ) ( -292 -128 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -292 132 128 ) ( -292 128 128 ) ( -288 128 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 132 168 ) ( -288 128 168 ) ( -292 128 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -292 128 168 ) ( -292 128 128 ) ( -292 132 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -288 132 168 ) ( -288 132 128 ) ( -288 128 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -288 128 128 ) ( -292 128 128 ) ( -292 128 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -288 132 168 ) ( -292 132 168 ) ( -292 132 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -292 128 160 ) ( -292 -128 160 ) ( -288 -128 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -288 128 168 ) ( -288 -128 168 ) ( -292 -128 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -292 -128 168 ) ( -292 -128 160 ) ( -292 128 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -288 128 168 ) ( -288 128 160 ) ( -288 -128 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -288 -128 160 ) ( -292 -128 160 ) ( -292 -128 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -288 128 168 ) ( -292 128 168 ) ( -292 128 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 288 -128 128 ) ( 288 -132 128 ) ( 292 -132 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 292 -128 168 ) ( 292 -132 168 ) ( 288 -132 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 288 -132 168 ) ( 288 -132 128 ) ( 288 -128 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 292 -128 168 ) ( 292 -128 128 ) ( 292 -132 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 292 -132 128 ) ( 288 -132 128 ) ( 288 -132 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 292 -128 168 ) ( 288 -128 168 ) ( 288 -128 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 288 132 128 ) ( 288 128 128 ) ( 292 128 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 292 132 168 ) ( 292 128 168 ) ( 288 128 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 288 128 168 ) ( 288 128 128 ) ( 288 132 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 292 132 168 ) ( 292 132 128 ) ( 292 128 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 292 128 128 ) ( 288 128 128 ) ( 288 128 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 292 132 168 ) ( 288 132 168 ) ( 288 132 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 288 128 160 ) ( 288 -128 160 ) ( 292 -128 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 292 128 168 ) ( 292 -128 168 ) ( 288 -128 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 288 -128 168 ) ( 288 -128 160 ) ( 288 128 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 292 128 168 ) ( 292 128 160 ) ( 292 -128 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 292 -128 160 ) ( 288 -128 160 ) ( 288 -128 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 292 128 168 ) ( 288 128 168 ) ( 288 128 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -100 -288 128 ) ( -100 -292 128 ) ( -96 -292 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 -288 168 ) ( -96 -292 168 ) ( -100 -292 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -100 -292 168 ) ( -100 -292 128 ) ( -100 -288 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -96 -288 168 ) ( -96 -288 128 ) ( -96 -292 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -96 -292 128 ) ( -100 -292 128 ) ( -100 -292 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -96 -288 168 ) ( -100 -288 168 ) ( -100 -288 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 96 -288 128 ) ( 96 -292 128 ) ( 100 -292 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 100 -288 168 ) ( 100 -292 168 ) ( 96 -292 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 96 -292 168 ) ( 96 -292 128 ) ( 96 -288 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 100 -288 168 ) ( 100 -288 128 ) ( 100 -292 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 100 -292 128 ) ( 96 -292 128 ) ( 96 -292 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 100 -288 168 ) ( 96 -288 168 ) ( 96 -288 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -96 -288 160 ) ( -96 -292 160 ) ( 96 -292 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 -288 168 ) ( 96 -292 168 ) ( -96 -292 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -96 -292 168 ) ( -96 -292 160 ) ( -96 -288 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 96 -288 168 ) ( 96 -288 160 ) ( 96 -292 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 96 -292 160 ) ( -96 -292 160 ) ( -96 -292 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 96 -288 168 ) ( -96 -288 168 ) ( -96 -288 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -100 292 128 ) ( -100 288 128 ) ( -96 288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -96 292 168 ) ( -96 288 168 ) ( -100 288 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -100 288 168 ) ( -100 288 128 ) ( -100 292 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -96 292 168 ) ( -96 292 128 ) ( -96 288 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -96 288 128 ) ( -100 288 128 ) ( -100 288 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -96 292 168 ) ( -100 292 168 ) ( -100 292 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 96 292 128 ) ( 96 288 128 ) ( 100 288 128 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 100 292 168 ) ( 100 288 168 ) ( 96 288 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 96 288 168 ) ( 96 288 128 ) ( 96 292 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 100 292 168 ) ( 100 292 128 ) ( 100 288 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 100 288 128 ) ( 96 288 128 ) ( 96 288 168 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 100 292 168 ) ( 96 292 168 ) ( 96 292 128 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -96 292 160 ) ( -96 288 160 ) ( 96 288 160 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 96 292 168 ) ( 96 288 168 ) ( -96 288 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -96 288 168 ) ( -96 288 160 ) ( -96 292 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 96 292 168 ) ( 96 292 160 ) ( 96 288 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 96 288 160 ) ( -96 288 160 ) ( -96 288 168 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 96 292 168 ) ( -96 292 168 ) ( -96 292 160 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+
+// === FLOOR GRATES (dark strips for visual variety) ===
+{
+( -480 -992 0 ) ( -480 -1008 0 ) ( 480 -1008 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 -992 2 ) ( 480 -1008 2 ) ( -480 -1008 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -480 -1008 2 ) ( -480 -1008 0 ) ( -480 -992 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -992 2 ) ( 480 -992 0 ) ( 480 -1008 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -1008 0 ) ( -480 -1008 0 ) ( -480 -1008 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -992 2 ) ( -480 -992 2 ) ( -480 -992 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -480 -592 0 ) ( -480 -608 0 ) ( 480 -608 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 -592 2 ) ( 480 -608 2 ) ( -480 -608 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -480 -608 2 ) ( -480 -608 0 ) ( -480 -592 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -592 2 ) ( 480 -592 0 ) ( 480 -608 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -608 0 ) ( -480 -608 0 ) ( -480 -608 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -592 2 ) ( -480 -592 2 ) ( -480 -592 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -480 -192 0 ) ( -480 -208 0 ) ( 480 -208 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 -192 2 ) ( 480 -208 2 ) ( -480 -208 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -480 -208 2 ) ( -480 -208 0 ) ( -480 -192 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -192 2 ) ( 480 -192 0 ) ( 480 -208 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -208 0 ) ( -480 -208 0 ) ( -480 -208 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 -192 2 ) ( -480 -192 2 ) ( -480 -192 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -480 208 0 ) ( -480 192 0 ) ( 480 192 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 208 2 ) ( 480 192 2 ) ( -480 192 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -480 192 2 ) ( -480 192 0 ) ( -480 208 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 208 2 ) ( 480 208 0 ) ( 480 192 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 192 0 ) ( -480 192 0 ) ( -480 192 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 208 2 ) ( -480 208 2 ) ( -480 208 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -480 608 0 ) ( -480 592 0 ) ( 480 592 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 608 2 ) ( 480 592 2 ) ( -480 592 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -480 592 2 ) ( -480 592 0 ) ( -480 608 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 608 2 ) ( 480 608 0 ) ( 480 592 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 592 0 ) ( -480 592 0 ) ( -480 592 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 608 2 ) ( -480 608 2 ) ( -480 608 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -480 1008 0 ) ( -480 992 0 ) ( 480 992 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 480 1008 2 ) ( 480 992 2 ) ( -480 992 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -480 992 2 ) ( -480 992 0 ) ( -480 1008 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 1008 2 ) ( 480 1008 0 ) ( 480 992 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 992 0 ) ( -480 992 0 ) ( -480 992 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 480 1008 2 ) ( -480 1008 2 ) ( -480 1008 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 -292 0 ) ( -1016 -308 0 ) ( -776 -308 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -776 -292 2 ) ( -776 -308 2 ) ( -1016 -308 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -1016 -308 2 ) ( -1016 -308 0 ) ( -1016 -292 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 -292 2 ) ( -776 -292 0 ) ( -776 -308 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 -308 0 ) ( -1016 -308 0 ) ( -1016 -308 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 -292 2 ) ( -1016 -292 2 ) ( -1016 -292 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 776 -292 0 ) ( 776 -308 0 ) ( 1016 -308 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 -292 2 ) ( 1016 -308 2 ) ( 776 -308 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 776 -308 2 ) ( 776 -308 0 ) ( 776 -292 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 -292 2 ) ( 1016 -292 0 ) ( 1016 -308 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 -308 0 ) ( 776 -308 0 ) ( 776 -308 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 -292 2 ) ( 776 -292 2 ) ( 776 -292 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 8 0 ) ( -1016 -8 0 ) ( -776 -8 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -776 8 2 ) ( -776 -8 2 ) ( -1016 -8 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -1016 -8 2 ) ( -1016 -8 0 ) ( -1016 8 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 8 2 ) ( -776 8 0 ) ( -776 -8 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 -8 0 ) ( -1016 -8 0 ) ( -1016 -8 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 8 2 ) ( -1016 8 2 ) ( -1016 8 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 776 8 0 ) ( 776 -8 0 ) ( 1016 -8 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 8 2 ) ( 1016 -8 2 ) ( 776 -8 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 776 -8 2 ) ( 776 -8 0 ) ( 776 8 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 8 2 ) ( 1016 8 0 ) ( 1016 -8 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 -8 0 ) ( 776 -8 0 ) ( 776 -8 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 8 2 ) ( 776 8 2 ) ( 776 8 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1016 308 0 ) ( -1016 292 0 ) ( -776 292 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -776 308 2 ) ( -776 292 2 ) ( -1016 292 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -1016 292 2 ) ( -1016 292 0 ) ( -1016 308 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 308 2 ) ( -776 308 0 ) ( -776 292 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 292 0 ) ( -1016 292 0 ) ( -1016 292 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( -776 308 2 ) ( -1016 308 2 ) ( -1016 308 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 776 308 0 ) ( 776 292 0 ) ( 1016 292 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1016 308 2 ) ( 1016 292 2 ) ( 776 292 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 776 292 2 ) ( 776 292 0 ) ( 776 308 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 308 2 ) ( 1016 308 0 ) ( 1016 292 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 292 0 ) ( 776 292 0 ) ( 776 292 2 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+( 1016 308 2 ) ( 776 308 2 ) ( 776 308 0 ) evil4_techfloors/tfloor2 0 0 0 0.5 0.5 0 0 0
+}
+
+// === PIPES — vertical pipes on walls ===
+{
+( -516 -1096 0 ) ( -516 -1104 0 ) ( -512 -1104 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -1096 192 ) ( -512 -1104 192 ) ( -516 -1104 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -516 -1104 192 ) ( -516 -1104 0 ) ( -516 -1096 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1096 192 ) ( -512 -1096 0 ) ( -512 -1104 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1104 0 ) ( -516 -1104 0 ) ( -516 -1104 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1096 192 ) ( -516 -1096 192 ) ( -516 -1096 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -1096 0 ) ( 512 -1104 0 ) ( 516 -1104 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 -1096 192 ) ( 516 -1104 192 ) ( 512 -1104 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -1104 192 ) ( 512 -1104 0 ) ( 512 -1096 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -1096 192 ) ( 516 -1096 0 ) ( 516 -1104 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -1104 0 ) ( 512 -1104 0 ) ( 512 -1104 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -1096 192 ) ( 512 -1096 192 ) ( 512 -1096 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -516 -546 0 ) ( -516 -554 0 ) ( -512 -554 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -546 192 ) ( -512 -554 192 ) ( -516 -554 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -516 -554 192 ) ( -516 -554 0 ) ( -516 -546 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -546 192 ) ( -512 -546 0 ) ( -512 -554 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -554 0 ) ( -516 -554 0 ) ( -516 -554 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -546 192 ) ( -516 -546 192 ) ( -516 -546 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -546 0 ) ( 512 -554 0 ) ( 516 -554 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 -546 192 ) ( 516 -554 192 ) ( 512 -554 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -554 192 ) ( 512 -554 0 ) ( 512 -546 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -546 192 ) ( 516 -546 0 ) ( 516 -554 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -554 0 ) ( 512 -554 0 ) ( 512 -554 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -546 192 ) ( 512 -546 192 ) ( 512 -546 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -516 4 0 ) ( -516 -4 0 ) ( -512 -4 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 4 192 ) ( -512 -4 192 ) ( -516 -4 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -516 -4 192 ) ( -516 -4 0 ) ( -516 4 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 4 192 ) ( -512 4 0 ) ( -512 -4 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -4 0 ) ( -516 -4 0 ) ( -516 -4 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 4 192 ) ( -516 4 192 ) ( -516 4 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 4 0 ) ( 512 -4 0 ) ( 516 -4 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 4 192 ) ( 516 -4 192 ) ( 512 -4 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -4 192 ) ( 512 -4 0 ) ( 512 4 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 4 192 ) ( 516 4 0 ) ( 516 -4 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 -4 0 ) ( 512 -4 0 ) ( 512 -4 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 4 192 ) ( 512 4 192 ) ( 512 4 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -516 554 0 ) ( -516 546 0 ) ( -512 546 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 554 192 ) ( -512 546 192 ) ( -516 546 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -516 546 192 ) ( -516 546 0 ) ( -516 554 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 554 192 ) ( -512 554 0 ) ( -512 546 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 546 0 ) ( -516 546 0 ) ( -516 546 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 554 192 ) ( -516 554 192 ) ( -516 554 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 554 0 ) ( 512 546 0 ) ( 516 546 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 554 192 ) ( 516 546 192 ) ( 512 546 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 546 192 ) ( 512 546 0 ) ( 512 554 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 554 192 ) ( 516 554 0 ) ( 516 546 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 546 0 ) ( 512 546 0 ) ( 512 546 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 554 192 ) ( 512 554 192 ) ( 512 554 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -516 1104 0 ) ( -516 1096 0 ) ( -512 1096 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 1104 192 ) ( -512 1096 192 ) ( -516 1096 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -516 1096 192 ) ( -516 1096 0 ) ( -516 1104 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1104 192 ) ( -512 1104 0 ) ( -512 1096 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1096 0 ) ( -516 1096 0 ) ( -516 1096 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1104 192 ) ( -516 1104 192 ) ( -516 1104 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 1104 0 ) ( 512 1096 0 ) ( 516 1096 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 516 1104 192 ) ( 516 1096 192 ) ( 512 1096 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 1096 192 ) ( 512 1096 0 ) ( 512 1104 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 1104 192 ) ( 516 1104 0 ) ( 516 1096 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 1096 0 ) ( 512 1096 0 ) ( 512 1096 192 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 516 1104 192 ) ( 512 1104 192 ) ( 512 1104 0 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -524 -1092 96 ) ( -524 -1108 96 ) ( -512 -1108 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -1092 104 ) ( -512 -1108 104 ) ( -524 -1108 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -524 -1108 104 ) ( -524 -1108 96 ) ( -524 -1092 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1092 104 ) ( -512 -1092 96 ) ( -512 -1108 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1108 96 ) ( -524 -1108 96 ) ( -524 -1108 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -1092 104 ) ( -524 -1092 104 ) ( -524 -1092 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -1092 96 ) ( 512 -1108 96 ) ( 524 -1108 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 524 -1092 104 ) ( 524 -1108 104 ) ( 512 -1108 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -1108 104 ) ( 512 -1108 96 ) ( 512 -1092 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -1092 104 ) ( 524 -1092 96 ) ( 524 -1108 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -1108 96 ) ( 512 -1108 96 ) ( 512 -1108 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -1092 104 ) ( 512 -1092 104 ) ( 512 -1092 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -524 -542 96 ) ( -524 -558 96 ) ( -512 -558 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 -542 104 ) ( -512 -558 104 ) ( -524 -558 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -524 -558 104 ) ( -524 -558 96 ) ( -524 -542 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -542 104 ) ( -512 -542 96 ) ( -512 -558 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -558 96 ) ( -524 -558 96 ) ( -524 -558 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -542 104 ) ( -524 -542 104 ) ( -524 -542 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 -542 96 ) ( 512 -558 96 ) ( 524 -558 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 524 -542 104 ) ( 524 -558 104 ) ( 512 -558 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -558 104 ) ( 512 -558 96 ) ( 512 -542 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -542 104 ) ( 524 -542 96 ) ( 524 -558 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -558 96 ) ( 512 -558 96 ) ( 512 -558 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -542 104 ) ( 512 -542 104 ) ( 512 -542 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -524 8 96 ) ( -524 -8 96 ) ( -512 -8 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 8 104 ) ( -512 -8 104 ) ( -524 -8 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -524 -8 104 ) ( -524 -8 96 ) ( -524 8 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 8 104 ) ( -512 8 96 ) ( -512 -8 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 -8 96 ) ( -524 -8 96 ) ( -524 -8 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 8 104 ) ( -524 8 104 ) ( -524 8 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 8 96 ) ( 512 -8 96 ) ( 524 -8 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 524 8 104 ) ( 524 -8 104 ) ( 512 -8 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 -8 104 ) ( 512 -8 96 ) ( 512 8 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 8 104 ) ( 524 8 96 ) ( 524 -8 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 -8 96 ) ( 512 -8 96 ) ( 512 -8 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 8 104 ) ( 512 8 104 ) ( 512 8 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -524 558 96 ) ( -524 542 96 ) ( -512 542 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 558 104 ) ( -512 542 104 ) ( -524 542 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -524 542 104 ) ( -524 542 96 ) ( -524 558 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 558 104 ) ( -512 558 96 ) ( -512 542 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 542 96 ) ( -524 542 96 ) ( -524 542 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 558 104 ) ( -524 558 104 ) ( -524 558 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 558 96 ) ( 512 542 96 ) ( 524 542 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 524 558 104 ) ( 524 542 104 ) ( 512 542 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 542 104 ) ( 512 542 96 ) ( 512 558 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 558 104 ) ( 524 558 96 ) ( 524 542 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 542 96 ) ( 512 542 96 ) ( 512 542 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 558 104 ) ( 512 558 104 ) ( 512 558 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -524 1108 96 ) ( -524 1092 96 ) ( -512 1092 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -512 1108 104 ) ( -512 1092 104 ) ( -524 1092 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -524 1092 104 ) ( -524 1092 96 ) ( -524 1108 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1108 104 ) ( -512 1108 96 ) ( -512 1092 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1092 96 ) ( -524 1092 96 ) ( -524 1092 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( -512 1108 104 ) ( -524 1108 104 ) ( -524 1108 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 512 1108 96 ) ( 512 1092 96 ) ( 524 1092 96 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 524 1108 104 ) ( 524 1092 104 ) ( 512 1092 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 512 1092 104 ) ( 512 1092 96 ) ( 512 1108 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 1108 104 ) ( 524 1108 96 ) ( 524 1092 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 1092 96 ) ( 512 1092 96 ) ( 512 1092 104 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+( 524 1108 104 ) ( 512 1108 104 ) ( 512 1108 96 ) evil4_metals/drkmtl_default 0 0 0 0.5 0.5 0 0 0
+}
+
+// === CEILING LIGHT FIXTURES (recessed panels) ===
+{
+( -128 -968 184 ) ( -128 -1032 184 ) ( 128 -1032 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 128 -968 188 ) ( 128 -1032 188 ) ( -128 -1032 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -128 -1032 188 ) ( -128 -1032 184 ) ( -128 -968 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -968 188 ) ( 128 -968 184 ) ( 128 -1032 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -1032 184 ) ( -128 -1032 184 ) ( -128 -1032 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -968 188 ) ( -128 -968 188 ) ( -128 -968 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -120 -972 184 ) ( -120 -1028 184 ) ( -116 -1028 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 -972 188 ) ( -116 -1028 188 ) ( -120 -1028 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -120 -1028 188 ) ( -120 -1028 184 ) ( -120 -972 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 -972 188 ) ( -116 -972 184 ) ( -116 -1028 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( -116 -1028 184 ) ( -120 -1028 184 ) ( -120 -1028 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 -972 188 ) ( -120 -972 188 ) ( -120 -972 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 116 -972 184 ) ( 116 -1028 184 ) ( 120 -1028 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 -972 188 ) ( 120 -1028 188 ) ( 116 -1028 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 116 -1028 188 ) ( 116 -1028 184 ) ( 116 -972 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 -972 188 ) ( 120 -972 184 ) ( 120 -1028 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( 120 -1028 184 ) ( 116 -1028 184 ) ( 116 -1028 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 -972 188 ) ( 116 -972 188 ) ( 116 -972 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -128 -468 184 ) ( -128 -532 184 ) ( 128 -532 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 128 -468 188 ) ( 128 -532 188 ) ( -128 -532 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -128 -532 188 ) ( -128 -532 184 ) ( -128 -468 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -468 188 ) ( 128 -468 184 ) ( 128 -532 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -532 184 ) ( -128 -532 184 ) ( -128 -532 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -468 188 ) ( -128 -468 188 ) ( -128 -468 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -120 -472 184 ) ( -120 -528 184 ) ( -116 -528 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 -472 188 ) ( -116 -528 188 ) ( -120 -528 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -120 -528 188 ) ( -120 -528 184 ) ( -120 -472 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 -472 188 ) ( -116 -472 184 ) ( -116 -528 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( -116 -528 184 ) ( -120 -528 184 ) ( -120 -528 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 -472 188 ) ( -120 -472 188 ) ( -120 -472 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 116 -472 184 ) ( 116 -528 184 ) ( 120 -528 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 -472 188 ) ( 120 -528 188 ) ( 116 -528 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 116 -528 188 ) ( 116 -528 184 ) ( 116 -472 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 -472 188 ) ( 120 -472 184 ) ( 120 -528 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( 120 -528 184 ) ( 116 -528 184 ) ( 116 -528 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 -472 188 ) ( 116 -472 188 ) ( 116 -472 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -128 32 184 ) ( -128 -32 184 ) ( 128 -32 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 128 32 188 ) ( 128 -32 188 ) ( -128 -32 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -128 -32 188 ) ( -128 -32 184 ) ( -128 32 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 32 188 ) ( 128 32 184 ) ( 128 -32 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 -32 184 ) ( -128 -32 184 ) ( -128 -32 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 32 188 ) ( -128 32 188 ) ( -128 32 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -120 28 184 ) ( -120 -28 184 ) ( -116 -28 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 28 188 ) ( -116 -28 188 ) ( -120 -28 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -120 -28 188 ) ( -120 -28 184 ) ( -120 28 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 28 188 ) ( -116 28 184 ) ( -116 -28 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( -116 -28 184 ) ( -120 -28 184 ) ( -120 -28 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 28 188 ) ( -120 28 188 ) ( -120 28 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 116 28 184 ) ( 116 -28 184 ) ( 120 -28 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 28 188 ) ( 120 -28 188 ) ( 116 -28 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 116 -28 188 ) ( 116 -28 184 ) ( 116 28 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 28 188 ) ( 120 28 184 ) ( 120 -28 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( 120 -28 184 ) ( 116 -28 184 ) ( 116 -28 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 28 188 ) ( 116 28 188 ) ( 116 28 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -128 532 184 ) ( -128 468 184 ) ( 128 468 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 128 532 188 ) ( 128 468 188 ) ( -128 468 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -128 468 188 ) ( -128 468 184 ) ( -128 532 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 532 188 ) ( 128 532 184 ) ( 128 468 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 468 184 ) ( -128 468 184 ) ( -128 468 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 532 188 ) ( -128 532 188 ) ( -128 532 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -120 528 184 ) ( -120 472 184 ) ( -116 472 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 528 188 ) ( -116 472 188 ) ( -120 472 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -120 472 188 ) ( -120 472 184 ) ( -120 528 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 528 188 ) ( -116 528 184 ) ( -116 472 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( -116 472 184 ) ( -120 472 184 ) ( -120 472 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 528 188 ) ( -120 528 188 ) ( -120 528 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 116 528 184 ) ( 116 472 184 ) ( 120 472 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 528 188 ) ( 120 472 188 ) ( 116 472 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 116 472 188 ) ( 116 472 184 ) ( 116 528 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 528 188 ) ( 120 528 184 ) ( 120 472 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( 120 472 184 ) ( 116 472 184 ) ( 116 472 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 528 188 ) ( 116 528 188 ) ( 116 528 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -128 1032 184 ) ( -128 968 184 ) ( 128 968 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 128 1032 188 ) ( 128 968 188 ) ( -128 968 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( -128 968 188 ) ( -128 968 184 ) ( -128 1032 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 1032 188 ) ( 128 1032 184 ) ( 128 968 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 968 184 ) ( -128 968 184 ) ( -128 968 188 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+( 128 1032 188 ) ( -128 1032 188 ) ( -128 1032 184 ) evil4_d_techwalls/d_drkmtl_dpanel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -120 1028 184 ) ( -120 972 184 ) ( -116 972 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 1028 188 ) ( -116 972 188 ) ( -120 972 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -120 972 188 ) ( -120 972 184 ) ( -120 1028 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 1028 188 ) ( -116 1028 184 ) ( -116 972 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( -116 972 184 ) ( -120 972 184 ) ( -120 972 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -116 1028 188 ) ( -120 1028 188 ) ( -120 1028 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 116 1028 184 ) ( 116 972 184 ) ( 120 972 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 1028 188 ) ( 120 972 188 ) ( 116 972 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 116 972 188 ) ( 116 972 184 ) ( 116 1028 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 1028 188 ) ( 120 1028 184 ) ( 120 972 184 ) urban_light/blue_light_200 0 0 0 0.5 0.5 0 0 0
+( 120 972 184 ) ( 116 972 184 ) ( 116 972 188 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 120 1028 188 ) ( 116 1028 188 ) ( 116 1028 184 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+}
+
+// === MORE TRIM — door frames for flank rooms ===
+{
+( -1024 -908 0 ) ( -1024 -904 0 ) ( -1016 -904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -908 144 ) ( -1016 -904 144 ) ( -1024 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 -904 144 ) ( -1024 -904 0 ) ( -1024 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -908 144 ) ( -1016 -908 0 ) ( -1016 -904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -904 0 ) ( -1024 -904 0 ) ( -1024 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -908 144 ) ( -1024 -908 144 ) ( -1024 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 -908 0 ) ( -776 -904 0 ) ( -768 -904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -908 144 ) ( -768 -904 144 ) ( -776 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -904 144 ) ( -776 -904 0 ) ( -776 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -908 144 ) ( -768 -908 0 ) ( -768 -904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -904 0 ) ( -776 -904 0 ) ( -776 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -908 144 ) ( -776 -908 144 ) ( -776 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -908 0 ) ( 768 -904 0 ) ( 776 -904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 -908 144 ) ( 776 -904 144 ) ( 768 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 -904 144 ) ( 768 -904 0 ) ( 768 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -908 144 ) ( 776 -908 0 ) ( 776 -904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -904 0 ) ( 768 -904 0 ) ( 768 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -908 144 ) ( 768 -908 144 ) ( 768 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 -908 0 ) ( 1016 -904 0 ) ( 1024 -904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -908 144 ) ( 1024 -904 144 ) ( 1016 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -904 144 ) ( 1016 -904 0 ) ( 1016 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -908 144 ) ( 1024 -908 0 ) ( 1024 -904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -904 0 ) ( 1016 -904 0 ) ( 1016 -904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -908 144 ) ( 1016 -908 144 ) ( 1016 -908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 -900 0 ) ( -1024 -896 0 ) ( -1016 -896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -900 144 ) ( -1016 -896 144 ) ( -1024 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 -896 144 ) ( -1024 -896 0 ) ( -1024 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -900 144 ) ( -1016 -900 0 ) ( -1016 -896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -896 0 ) ( -1024 -896 0 ) ( -1024 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -900 144 ) ( -1024 -900 144 ) ( -1024 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 -900 0 ) ( -776 -896 0 ) ( -768 -896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -900 144 ) ( -768 -896 144 ) ( -776 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -896 144 ) ( -776 -896 0 ) ( -776 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -900 144 ) ( -768 -900 0 ) ( -768 -896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -896 0 ) ( -776 -896 0 ) ( -776 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -900 144 ) ( -776 -900 144 ) ( -776 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -900 0 ) ( 768 -896 0 ) ( 776 -896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 -900 144 ) ( 776 -896 144 ) ( 768 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 -896 144 ) ( 768 -896 0 ) ( 768 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -900 144 ) ( 776 -900 0 ) ( 776 -896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -896 0 ) ( 768 -896 0 ) ( 768 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -900 144 ) ( 768 -900 144 ) ( 768 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 -900 0 ) ( 1016 -896 0 ) ( 1024 -896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 144 ) ( 1024 -896 144 ) ( 1016 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -896 144 ) ( 1016 -896 0 ) ( 1016 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 144 ) ( 1024 -900 0 ) ( 1024 -896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -896 0 ) ( 1016 -896 0 ) ( 1016 -896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -900 144 ) ( 1016 -900 144 ) ( 1016 -900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 -608 0 ) ( -1024 -604 0 ) ( -1016 -604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -608 144 ) ( -1016 -604 144 ) ( -1024 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 -604 144 ) ( -1024 -604 0 ) ( -1024 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -608 144 ) ( -1016 -608 0 ) ( -1016 -604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -604 0 ) ( -1024 -604 0 ) ( -1024 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -608 144 ) ( -1024 -608 144 ) ( -1024 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 -608 0 ) ( -776 -604 0 ) ( -768 -604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -608 144 ) ( -768 -604 144 ) ( -776 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -604 144 ) ( -776 -604 0 ) ( -776 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -608 144 ) ( -768 -608 0 ) ( -768 -604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -604 0 ) ( -776 -604 0 ) ( -776 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -608 144 ) ( -776 -608 144 ) ( -776 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -608 0 ) ( 768 -604 0 ) ( 776 -604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 -608 144 ) ( 776 -604 144 ) ( 768 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 -604 144 ) ( 768 -604 0 ) ( 768 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -608 144 ) ( 776 -608 0 ) ( 776 -604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -604 0 ) ( 768 -604 0 ) ( 768 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -608 144 ) ( 768 -608 144 ) ( 768 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 -608 0 ) ( 1016 -604 0 ) ( 1024 -604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -608 144 ) ( 1024 -604 144 ) ( 1016 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -604 144 ) ( 1016 -604 0 ) ( 1016 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -608 144 ) ( 1024 -608 0 ) ( 1024 -604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -604 0 ) ( 1016 -604 0 ) ( 1016 -604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -608 144 ) ( 1016 -608 144 ) ( 1016 -608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 -600 0 ) ( -1024 -596 0 ) ( -1016 -596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 -600 144 ) ( -1016 -596 144 ) ( -1024 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 -596 144 ) ( -1024 -596 0 ) ( -1024 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -600 144 ) ( -1016 -600 0 ) ( -1016 -596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -596 0 ) ( -1024 -596 0 ) ( -1024 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 -600 144 ) ( -1024 -600 144 ) ( -1024 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 -600 0 ) ( -776 -596 0 ) ( -768 -596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 -600 144 ) ( -768 -596 144 ) ( -776 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 -596 144 ) ( -776 -596 0 ) ( -776 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -600 144 ) ( -768 -600 0 ) ( -768 -596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -596 0 ) ( -776 -596 0 ) ( -776 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 -600 144 ) ( -776 -600 144 ) ( -776 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 -600 0 ) ( 768 -596 0 ) ( 776 -596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 -600 144 ) ( 776 -596 144 ) ( 768 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 -596 144 ) ( 768 -596 0 ) ( 768 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -600 144 ) ( 776 -600 0 ) ( 776 -596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -596 0 ) ( 768 -596 0 ) ( 768 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 -600 144 ) ( 768 -600 144 ) ( 768 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 -600 0 ) ( 1016 -596 0 ) ( 1024 -596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 144 ) ( 1024 -596 144 ) ( 1016 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 -596 144 ) ( 1016 -596 0 ) ( 1016 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 144 ) ( 1024 -600 0 ) ( 1024 -596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -596 0 ) ( 1016 -596 0 ) ( 1016 -596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 -600 144 ) ( 1016 -600 144 ) ( 1016 -600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 600 0 ) ( -1024 596 0 ) ( -1016 596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 600 144 ) ( -1016 596 144 ) ( -1024 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 596 144 ) ( -1024 596 0 ) ( -1024 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 600 144 ) ( -1016 600 0 ) ( -1016 596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 596 0 ) ( -1024 596 0 ) ( -1024 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 600 144 ) ( -1024 600 144 ) ( -1024 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 600 0 ) ( -776 596 0 ) ( -768 596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 600 144 ) ( -768 596 144 ) ( -776 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 596 144 ) ( -776 596 0 ) ( -776 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 600 144 ) ( -768 600 0 ) ( -768 596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 596 0 ) ( -776 596 0 ) ( -776 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 600 144 ) ( -776 600 144 ) ( -776 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 600 0 ) ( 768 596 0 ) ( 776 596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 600 144 ) ( 776 596 144 ) ( 768 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 596 144 ) ( 768 596 0 ) ( 768 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 600 144 ) ( 776 600 0 ) ( 776 596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 596 0 ) ( 768 596 0 ) ( 768 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 600 144 ) ( 768 600 144 ) ( 768 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 600 0 ) ( 1016 596 0 ) ( 1024 596 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 600 144 ) ( 1024 596 144 ) ( 1016 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 596 144 ) ( 1016 596 0 ) ( 1016 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 600 144 ) ( 1024 600 0 ) ( 1024 596 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 596 0 ) ( 1016 596 0 ) ( 1016 596 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 600 144 ) ( 1016 600 144 ) ( 1016 600 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 608 0 ) ( -1024 604 0 ) ( -1016 604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 608 144 ) ( -1016 604 144 ) ( -1024 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 604 144 ) ( -1024 604 0 ) ( -1024 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 608 144 ) ( -1016 608 0 ) ( -1016 604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 604 0 ) ( -1024 604 0 ) ( -1024 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 608 144 ) ( -1024 608 144 ) ( -1024 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 608 0 ) ( -776 604 0 ) ( -768 604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 608 144 ) ( -768 604 144 ) ( -776 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 604 144 ) ( -776 604 0 ) ( -776 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 608 144 ) ( -768 608 0 ) ( -768 604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 604 0 ) ( -776 604 0 ) ( -776 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 608 144 ) ( -776 608 144 ) ( -776 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 608 0 ) ( 768 604 0 ) ( 776 604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 608 144 ) ( 776 604 144 ) ( 768 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 604 144 ) ( 768 604 0 ) ( 768 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 608 144 ) ( 776 608 0 ) ( 776 604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 604 0 ) ( 768 604 0 ) ( 768 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 608 144 ) ( 768 608 144 ) ( 768 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 608 0 ) ( 1016 604 0 ) ( 1024 604 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 608 144 ) ( 1024 604 144 ) ( 1016 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 604 144 ) ( 1016 604 0 ) ( 1016 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 608 144 ) ( 1024 608 0 ) ( 1024 604 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 604 0 ) ( 1016 604 0 ) ( 1016 604 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 608 144 ) ( 1016 608 144 ) ( 1016 608 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 900 0 ) ( -1024 896 0 ) ( -1016 896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 900 144 ) ( -1016 896 144 ) ( -1024 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 896 144 ) ( -1024 896 0 ) ( -1024 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 900 144 ) ( -1016 900 0 ) ( -1016 896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 896 0 ) ( -1024 896 0 ) ( -1024 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 900 144 ) ( -1024 900 144 ) ( -1024 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 900 0 ) ( -776 896 0 ) ( -768 896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 900 144 ) ( -768 896 144 ) ( -776 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 896 144 ) ( -776 896 0 ) ( -776 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 900 144 ) ( -768 900 0 ) ( -768 896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 896 0 ) ( -776 896 0 ) ( -776 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 900 144 ) ( -776 900 144 ) ( -776 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 900 0 ) ( 768 896 0 ) ( 776 896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 900 144 ) ( 776 896 144 ) ( 768 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 896 144 ) ( 768 896 0 ) ( 768 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 900 144 ) ( 776 900 0 ) ( 776 896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 896 0 ) ( 768 896 0 ) ( 768 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 900 144 ) ( 768 900 144 ) ( 768 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 900 0 ) ( 1016 896 0 ) ( 1024 896 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 900 144 ) ( 1024 896 144 ) ( 1016 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 896 144 ) ( 1016 896 0 ) ( 1016 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 900 144 ) ( 1024 900 0 ) ( 1024 896 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 896 0 ) ( 1016 896 0 ) ( 1016 896 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 900 144 ) ( 1016 900 144 ) ( 1016 900 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -1024 908 0 ) ( -1024 904 0 ) ( -1016 904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -1016 908 144 ) ( -1016 904 144 ) ( -1024 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1024 904 144 ) ( -1024 904 0 ) ( -1024 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 908 144 ) ( -1016 908 0 ) ( -1016 904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 904 0 ) ( -1024 904 0 ) ( -1024 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -1016 908 144 ) ( -1024 908 144 ) ( -1024 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( -776 908 0 ) ( -776 904 0 ) ( -768 904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( -768 908 144 ) ( -768 904 144 ) ( -776 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -776 904 144 ) ( -776 904 0 ) ( -776 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 908 144 ) ( -768 908 0 ) ( -768 904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 904 0 ) ( -776 904 0 ) ( -776 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( -768 908 144 ) ( -776 908 144 ) ( -776 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 768 908 0 ) ( 768 904 0 ) ( 776 904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 776 908 144 ) ( 776 904 144 ) ( 768 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 768 904 144 ) ( 768 904 0 ) ( 768 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 908 144 ) ( 776 908 0 ) ( 776 904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 904 0 ) ( 768 904 0 ) ( 768 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 776 908 144 ) ( 768 908 144 ) ( 768 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+{
+( 1016 908 0 ) ( 1016 904 0 ) ( 1024 904 0 ) metal/metal_darkgrey 0 0 0 0.5 0.5 0 0 0
+( 1024 908 144 ) ( 1024 904 144 ) ( 1016 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1016 904 144 ) ( 1016 904 0 ) ( 1016 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 908 144 ) ( 1024 908 0 ) ( 1024 904 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 904 0 ) ( 1016 904 0 ) ( 1016 904 144 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+( 1024 908 144 ) ( 1016 908 144 ) ( 1016 908 0 ) evil4_techtrims/dwtrim_panel 0 0 0 0.5 0.5 0 0 0
+}
+
+// v43 total: 273 brushes
+
 }
 // ============================================================
 // FLAGS CTF
